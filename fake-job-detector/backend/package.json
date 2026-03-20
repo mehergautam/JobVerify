@@ -1,0 +1,22 @@
+{
+  "name": "fake-job-detector-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Fake Job Posting Detector",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "groq-sdk": "^1.1.1",
+    "mongoose": "^8.3.2",
+    "openai": "^4.40.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
