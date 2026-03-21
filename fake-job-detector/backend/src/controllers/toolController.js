@@ -75,9 +75,31 @@ const salaryCheck = async (req, res) => {
   }
 };
 
+const generateCoverLetter = async (req, res) => {
+  try {
+    const result = await toolService.generateCoverLetter(req.body);
+    if (req.user) await saveToHistory(req.user.id, 'cover-letter', { company: req.body.company, jobTitle: req.body.jobTitle }, result);
+    res.json(result);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+const analyzeLinkedIn = async (req, res) => {
+  try {
+    const result = await toolService.analyzeLinkedIn(req.body);
+    if (req.user) await saveToHistory(req.user.id, 'linkedin-analyzer', { profileUrl: req.body.profileUrl }, result);
+    res.json(result);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
 module.exports = {
   resumeAnalyze,
   interviewPrep,
   offerVerify,
-  salaryCheck
+  salaryCheck,
+  generateCoverLetter,
+  analyzeLinkedIn
 };

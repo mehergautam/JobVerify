@@ -4,13 +4,14 @@ import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { motion } from 'framer-motion';
-import { ShieldCheck, Mail, Lock, ArrowRight, Chrome } from 'lucide-react';
+import { Shield, Mail, Lock, ArrowRight, Eye, EyeOff } from 'lucide-react';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const { login } = useAuth();
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
@@ -31,134 +32,85 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row bg-[#0f0f1a]">
-      {/* Left Side: Illustration & Branding */}
-      <div className="hidden md:flex md:w-1/2 bg-gradient-to-br from-violet-900/40 via-[#13132b] to-[#0f0f1a] p-12 flex-col justify-between relative overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-20" />
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-violet-600/10 blur-[120px] rounded-full animate-pulse-glow" />
-        
-        <Link to="/" className="flex items-center gap-2 relative z-10">
-          <div className="bg-violet-600 p-1.5 rounded-lg text-white">
-            <ShieldCheck size={24} strokeWidth={2.5} />
-          </div>
-          <span className="font-black text-2xl tracking-tight text-white font-sans">JobVerify</span>
-        </Link>
+    <div className="min-h-screen bg-[#0c0c0f] flex items-center justify-center p-6 relative overflow-hidden">
+      {/* Background Hero Gradient */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,_rgba(99,102,241,0.15),_transparent)] pointer-events-none" />
+      <div className="absolute inset-0 bg-dot-grid opacity-10 pointer-events-none" />
 
-        <div className="relative z-10">
-          <motion.h2 
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2 }}
-            className="text-4xl lg:text-5xl font-black text-white mb-6 leading-tight"
-          >
-            Your path to a <br />
-            <span className="gradient-text">Secure Career</span> <br />
-            starts here.
-          </motion.h2>
-          <motion.p 
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.3 }}
-            className="text-slate-400 text-lg max-w-md"
-          >
-            Protect yourself from fraudulent postings and optimize your job search with our AI-powered toolkit.
-          </motion.p>
-        </div>
-
-        <div className="relative z-10 text-slate-500 text-sm font-medium">
-          © 2026 JobVerify AI. Secure by design.
-        </div>
-      </div>
-
-      {/* Right Side: Form */}
-      <div className="w-full md:w-1/2 flex items-center justify-center p-6 md:p-12 relative">
-        <div className="w-full max-w-md">
-          <div className="md:hidden flex justify-center mb-8">
-            <div className="bg-violet-600 p-2 rounded-xl text-white">
-              <ShieldCheck size={32} strokeWidth={2.5} />
+      <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="w-full max-w-md"
+      >
+        <div className="bg-[#131316] border border-white/10 rounded-[2.5rem] p-10 shadow-[0_24px_48px_rgba(0,0,0,0.4)] relative z-10">
+          <div className="flex flex-col items-center mb-10">
+            <div className="w-14 h-14 rounded-2xl bg-[#6366f1]/10 flex items-center justify-center text-[#6366f1] mb-6 border border-[#6366f1]/20">
+              <Shield size={32} fill="currentColor" fillOpacity={0.15} />
             </div>
-          </div>
-
-          <div className="mb-10 text-center md:text-left">
-            <h1 className="text-3xl font-black text-white mb-2">Welcome Back</h1>
-            <p className="text-slate-500">Log in to your JobVerify account</p>
+            <h2 className="text-3xl font-['Cabinet_Grotesk'] font-extrabold text-[#f2f2f5] mb-2 text-center">Welcome back</h2>
+            <p className="text-[#8b8b99] font-medium text-center">Login to your JobVerify account</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
-            <div className="float-label-group">
+            <div className="space-y-2">
+              <label className="text-xs font-bold text-[#8b8b99] uppercase tracking-widest pl-1">Email Address</label>
               <input 
                 type="email" 
-                id="email"
-                placeholder=" "
-                required
+                placeholder="name@email.com" 
                 className="input-field"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-              />
-              <label htmlFor="email">Email Address</label>
-              <Mail className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600" size={18} />
-            </div>
-
-            <div className="float-label-group">
-              <input 
-                type="password" 
-                id="password"
-                placeholder=" "
                 required
-                className="input-field"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
               />
-              <label htmlFor="password">Password</label>
-              <Lock className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600" size={18} />
             </div>
 
-            <div className="flex items-center justify-between text-sm">
-              <label className="flex items-center gap-2 cursor-pointer text-slate-400 hover:text-slate-300">
-                <input type="checkbox" className="w-4 h-4 rounded border-white/10 bg-white/5 accent-violet-600" />
-                Remember me
-              </label>
-              <a href="#" className="text-violet-400 font-semibold hover:text-violet-300 transition-colors">Forgot password?</a>
+            <div className="space-y-2">
+              <div className="flex justify-between items-center px-1">
+                <label className="text-xs font-bold text-[#8b8b99] uppercase tracking-widest">Password</label>
+                <Link to="#" className="text-xs font-bold text-[#6366f1] hover:text-[#4f46e5] transition-colors">Forgot password?</Link>
+              </div>
+              <div className="relative group">
+                <input 
+                  type={showPassword ? "text" : "password"}
+                  placeholder="••••••••" 
+                  className="input-field pr-12"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                />
+                <button 
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-[#55555f] hover:text-[#8b8b99] transition-colors"
+                >
+                  {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+                </button>
+              </div>
             </div>
 
             <button 
               type="submit" 
               disabled={isLoading}
-              className="btn-primary w-full py-4 text-lg font-bold group"
+              className="w-full bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white font-bold py-4 rounded-xl shadow-xl transition-all hover:shadow-[0_0_30px_rgba(99,102,241,0.3)] active:scale-95 flex items-center justify-center gap-3 disabled:opacity-50"
             >
               {isLoading ? (
-                <div className="w-6 h-6 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
               ) : (
-                <>
-                  Sign In
-                  <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-                </>
+                <>Sign In <ArrowRight size={20} /></>
               )}
             </button>
 
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-white/5"></div>
-              </div>
-              <div className="relative flex justify-center text-xs uppercase">
-                <span className="bg-[#0f0f1a] px-3 text-slate-500 font-bold tracking-widest">Or continue with</span>
-              </div>
+            <div className="relative py-2 text-center">
+               <div className="absolute inset-0 flex items-center"><div className="w-full border-t border-white/5" /></div>
+               <span className="relative bg-[#131316] px-4 text-[10px] font-bold text-[#55555f] uppercase tracking-widest">or</span>
             </div>
 
-            <button 
-              type="button"
-              className="btn-secondary w-full py-3.5 flex items-center justify-center gap-3 font-bold group"
-            >
-              <Chrome className="text-white group-hover:scale-110 transition-transform" size={20} />
-              Google
-            </button>
+            <p className="text-center text-sm font-medium text-[#8b8b99]">
+              Don't have an account? <Link to="/signup" className="text-[#6366f1] font-bold hover:underline ml-1">Sign up</Link>
+            </p>
           </form>
-
-          <p className="mt-10 text-center text-slate-500 font-medium">
-            New to JobVerify? <Link to="/signup" className="text-violet-400 font-bold hover:underline">Create an account</Link>
-          </p>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

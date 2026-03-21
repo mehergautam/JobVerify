@@ -4,6 +4,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import { Toaster } from 'react-hot-toast';
 import { AnimatePresence, motion } from 'framer-motion';
 import ProtectedRoute from './components/ProtectedRoute';
+import DashboardLayout from './components/DashboardLayout';
 
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
@@ -15,6 +16,8 @@ import InterviewPrep from './pages/InterviewPrep';
 import OfferVerifier from './pages/OfferVerifier';
 import SalaryChecker from './pages/SalaryChecker';
 import HistoryPage from './pages/HistoryPage';
+import CoverLetterGenerator from './pages/CoverLetterGenerator';
+import LinkedInAnalyzer from './pages/LinkedInAnalyzer';
 
 const PageWrapper = ({ children }) => (
   <motion.div
@@ -22,7 +25,7 @@ const PageWrapper = ({ children }) => (
     animate={{ opacity: 1, y: 0 }}
     exit={{ opacity: 0, y: -10 }}
     transition={{ duration: 0.3 }}
-    className="min-h-screen"
+    className="w-full"
   >
     {children}
   </motion.div>
@@ -41,13 +44,15 @@ const AnimatedRoutes = () => {
         <Route path="/signup" element={user ? <Navigate to="/dashboard" /> : <PageWrapper><Signup /></PageWrapper>} />
 
         {/* Protected routes */}
-        <Route path="/dashboard" element={<ProtectedRoute><PageWrapper><Dashboard /></PageWrapper></ProtectedRoute>} />
-        <Route path="/detect" element={<ProtectedRoute><PageWrapper><FakeJobDetector /></PageWrapper></ProtectedRoute>} />
-        <Route path="/resume" element={<ProtectedRoute><PageWrapper><ResumeAnalyzer /></PageWrapper></ProtectedRoute>} />
-        <Route path="/interview" element={<ProtectedRoute><PageWrapper><InterviewPrep /></PageWrapper></ProtectedRoute>} />
-        <Route path="/offer" element={<ProtectedRoute><PageWrapper><OfferVerifier /></PageWrapper></ProtectedRoute>} />
-        <Route path="/salary" element={<ProtectedRoute><PageWrapper><SalaryChecker /></PageWrapper></ProtectedRoute>} />
-        <Route path="/history" element={<ProtectedRoute><PageWrapper><HistoryPage /></PageWrapper></ProtectedRoute>} />
+        <Route path="/dashboard" element={<ProtectedRoute><DashboardLayout><PageWrapper><Dashboard /></PageWrapper></DashboardLayout></ProtectedRoute>} />
+        <Route path="/detect" element={<ProtectedRoute><DashboardLayout><PageWrapper><FakeJobDetector /></PageWrapper></DashboardLayout></ProtectedRoute>} />
+        <Route path="/resume" element={<ProtectedRoute><DashboardLayout><PageWrapper><ResumeAnalyzer /></PageWrapper></DashboardLayout></ProtectedRoute>} />
+        <Route path="/interview" element={<ProtectedRoute><DashboardLayout><PageWrapper><InterviewPrep /></PageWrapper></DashboardLayout></ProtectedRoute>} />
+        <Route path="/offer" element={<ProtectedRoute><DashboardLayout><PageWrapper><OfferVerifier /></PageWrapper></DashboardLayout></ProtectedRoute>} />
+        <Route path="/salary" element={<ProtectedRoute><DashboardLayout><PageWrapper><SalaryChecker /></PageWrapper></DashboardLayout></ProtectedRoute>} />
+        <Route path="/history" element={<ProtectedRoute><DashboardLayout><PageWrapper><HistoryPage /></PageWrapper></DashboardLayout></ProtectedRoute>} />
+        <Route path="/cover-letter" element={<ProtectedRoute><DashboardLayout><PageWrapper><CoverLetterGenerator /></PageWrapper></DashboardLayout></ProtectedRoute>} />
+        <Route path="/linkedin-analyzer" element={<ProtectedRoute><DashboardLayout><PageWrapper><LinkedInAnalyzer /></PageWrapper></DashboardLayout></ProtectedRoute>} />
 
         {/* Default redirect */}
         <Route path="*" element={<Navigate to="/" />} />
@@ -63,12 +68,15 @@ function App() {
         <Toaster 
           position="top-right" 
           toastOptions={{ 
-            className: 'toast-custom',
             duration: 4000,
             style: {
-              background: '#13132b',
-              color: '#fff',
-              border: '1px solid rgba(139, 92, 246, 0.2)',
+              background: '#131316',
+              color: '#f2f2f5',
+              border: '1px solid rgba(255, 255, 255, 0.1)',
+              borderRadius: '16px',
+              fontSize: '14px',
+              fontWeight: '600',
+              boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.5)',
             }
           }} 
         />

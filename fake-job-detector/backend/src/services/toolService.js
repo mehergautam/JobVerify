@@ -117,9 +117,61 @@ const checkSalary = async (role, location, experience) => {
   return callGroq(systemPrompt, userPrompt);
 };
 
+const generateCoverLetter = async ({ jobTitle, company, jobDescription, skills, experience, tone }) => {
+  const systemPrompt = "You are an expert career coach and professional writer. You only respond with strictly formatted JSON.";
+  const userPrompt = `
+    Generate a high-impact, personalized cover letter for the following role:
+    Job Title: ${jobTitle}
+    Company: ${company}
+    Experience: ${experience}
+    Tone: ${tone}
+    Key Skills: ${skills}
+    
+    Job Description Snippet:
+    """
+    ${jobDescription}
+    """
+    
+    The letter should be professional, engaging, and highlight how the candidate's skills match the company's needs.
+    
+    You must output ONLY valid JSON matching this exact structure:
+    {
+      "coverLetter": "<The full formatted cover letter text with proper spacing and line breaks>"
+    }
+  `;
+  return callGroq(systemPrompt, userPrompt);
+};
+
+const analyzeLinkedIn = async (data) => {
+  const systemPrompt = "You are a top-tier LinkedIn profile strategist and recruiter. You only respond with strictly formatted JSON.";
+  const userPrompt = `
+    Analyze this LinkedIn profile data and provide a quantitative and qualitative report.
+    Data: ${JSON.stringify(data)}
+    
+    You must output ONLY valid JSON matching this exact structure:
+    {
+      "overallScore": <number 0-100>,
+      "categories": {
+        "headlineStrength": <number 0-100>,
+        "aboutSection": <number 0-100>,
+        "skillsRelevance": <number 0-100>,
+        "recruiterVisibility": <number 0-100>,
+        "profileCompleteness": <number 0-100>,
+        "engagementPotential": <number 0-100>
+      },
+      "recommendations": [
+        { "category": "Headline/About/Skills/Visibility", "tip": "Specifically what to change", "impact": "High/Medium/Low" }
+      ]
+    }
+  `;
+  return callGroq(systemPrompt, userPrompt);
+};
+
 module.exports = {
   analyzeResume,
   prepInterview,
   verifyOffer,
-  checkSalary
+  checkSalary,
+  generateCoverLetter,
+  analyzeLinkedIn
 };

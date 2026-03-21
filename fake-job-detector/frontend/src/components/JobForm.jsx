@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Search } from 'lucide-react';
+import { Search, Sparkles } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const JobForm = ({ onAnalyze, isAnalyzing }) => {
   const [inputValue, setInputValue] = useState('');
@@ -19,28 +20,33 @@ const JobForm = ({ onAnalyze, isAnalyzing }) => {
   };
 
   return (
-    <div className="glass-card p-8 relative overflow-hidden flex-1 h-full border-white/5">
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-violet-500 via-purple-500 to-teal-500"></div>
+    <div className="bg-[#131316] rounded-[2.5rem] p-10 border border-white/5 shadow-xl relative overflow-hidden flex-1 h-full">
+      <div className="absolute top-0 left-0 w-full h-1 bg-[#6366f1]"></div>
+      <div className="absolute top-0 right-0 w-32 h-32 bg-[#6366f1]/5 rounded-bl-full pointer-events-none" />
 
-      <form onSubmit={handleSubmit} className="space-y-6 h-full flex flex-col">
+      <form onSubmit={handleSubmit} className="space-y-8 h-full flex flex-col relative z-10">
         <div className="flex-1">
-          <label className="block text-lg font-black text-white mb-4 tracking-tight">
-            Job Source Details
-          </label>
+          <div className="flex items-center gap-3 mb-6">
+             <div className="bg-[#6366f1]/10 p-2.5 rounded-xl text-[#6366f1] border border-[#6366f1]/20">
+                <Sparkles size={20} fill="currentColor" fillOpacity={0.2} />
+             </div>
+             <h3 className="text-xl font-['Cabinet_Grotesk'] font-bold text-white tracking-tight">AI Job Scanner</h3>
+          </div>
+          
           <div className="relative group">
             <textarea
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               placeholder="Paste a job URL (LinkedIn, Indeed, etc.) or the full job description text here..."
-              className="input-field min-h-[220px] md:min-h-[260px] bg-white/5 border-white/10 hover:border-violet-500/30 focus:border-violet-500/50 transition-all duration-300 pr-12"
+              className="input-field min-h-[260px] md:min-h-[300px] resize-none py-6 pr-14"
               disabled={isAnalyzing}
             />
-            <div className="absolute top-4 right-4 text-slate-600">
-              <Search size={20} />
+            <div className="absolute top-6 right-8 text-[#55555f] group-focus-within:text-[#6366f1] transition-colors">
+              <Search size={24} />
             </div>
             {inputValue.length > 0 && (
-              <div className="absolute bottom-4 right-5 text-[10px] font-black uppercase tracking-widest text-slate-500 bg-[#0f0f1a] px-2 py-0.5 rounded border border-white/5">
-                {inputValue.length} CHARS
+              <div className="absolute bottom-6 right-8 text-[10px] font-bold uppercase tracking-widest text-[#55555f]">
+                {inputValue.length} chars
               </div>
             )}
           </div>
@@ -50,19 +56,16 @@ const JobForm = ({ onAnalyze, isAnalyzing }) => {
           <button
             type="submit"
             disabled={isAnalyzing || !inputValue.trim()}
-            className="btn-primary w-full py-4 text-lg font-bold group"
+            className="w-full bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] text-white font-bold py-5 rounded-2xl shadow-xl transition-all hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(99,102,241,0.3)] active:scale-95 flex items-center justify-center gap-3 disabled:opacity-50 text-lg"
           >
             {isAnalyzing ? (
-              <div className="w-6 h-6 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+              <div className="w-6 h-6 border-2 border-white/20 border-t-white rounded-full animate-spin" />
             ) : (
-              <>
-                Analyze Posting
-                <Search size={20} className="ml-2 group-hover:scale-110 transition-transform" strokeWidth={3} />
-              </>
+              <>Analyze Posting ✨</>
             )}
           </button>
-          <p className="text-center text-slate-600 text-[10px] uppercase font-bold tracking-widest mt-4">
-            AI analysis may take up to 10 seconds
+          <p className="text-center text-[#55555f] text-[10px] uppercase font-bold tracking-[0.2em] mt-6 italic animate-pulse">
+            Deep AI analysis may take up to 10 seconds
           </p>
         </div>
       </form>

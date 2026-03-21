@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { resumeAnalyze, interviewPrep, offerVerify, salaryCheck } = require('../controllers/toolController');
+const { resumeAnalyze, interviewPrep, offerVerify, salaryCheck, generateCoverLetter, analyzeLinkedIn } = require('../controllers/toolController');
 const { resumeUploadMiddleware, resumeUploadAnalyze } = require('../controllers/resumeUploadController');
 const { protect } = require('../middleware/authMiddleware');
 
@@ -9,5 +9,7 @@ router.post('/resume-upload', protect, resumeUploadMiddleware, resumeUploadAnaly
 router.post('/interview-prep', protect, interviewPrep);
 router.post('/offer-verify', protect, offerVerify);
 router.post('/salary-check', protect, salaryCheck);
+router.post('/cover-letter/generate', protect, generateCoverLetter);
+router.post('/linkedin/analyze', protect, analyzeLinkedIn);
 
 module.exports = router;
