@@ -8,44 +8,44 @@ const VerificationStats = ({ history }) => {
   const fake = history.filter(item => item.trustScore < 40).length;
 
   return (
-    <div className="glass-card p-6">
-      <h3 className="text-xl font-bold mb-6 text-navy">Verification Stats</h3>
+    <div className="glass-card p-6 border-white/5 bg-white/5">
+      <h3 className="text-lg font-black mb-6 text-white uppercase tracking-widest">Global Insights</h3>
       
       <div className="grid grid-cols-2 gap-4">
         {/* Total Scans */}
-        <div className="bg-slate-50 rounded-2xl p-4 border border-slate-100 flex flex-col items-center justify-center text-center">
-          <div className="w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center mb-2">
+        <div className="bg-white/5 rounded-2xl p-4 border border-white/5 flex flex-col items-center justify-center text-center group hover:bg-white/[0.08] transition-all">
+          <div className="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
             <Target size={20} />
           </div>
-          <span className="text-2xl font-black text-navy">{total}</span>
-          <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1">Jobs Scanned</span>
+          <span className="text-2xl font-black text-white">{total}</span>
+          <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest mt-1">Total Scans</span>
         </div>
 
         {/* Legitimate */}
-        <div className="bg-emerald/10 rounded-2xl p-4 border border-emerald/20 flex flex-col items-center justify-center text-center">
-          <div className="w-10 h-10 rounded-full bg-emerald-light/20 text-emerald-dark flex items-center justify-center mb-2">
+        <div className="bg-emerald-500/5 rounded-2xl p-4 border border-emerald-500/10 flex flex-col items-center justify-center text-center group hover:bg-emerald-500/10 transition-all">
+          <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
             <CheckCircle2 size={20} />
           </div>
-          <span className="text-2xl font-black text-emerald-dark">{legitimate}</span>
-          <span className="text-xs font-semibold text-emerald-dark/80 uppercase tracking-wider mt-1">Legitimate</span>
+          <span className="text-2xl font-black text-emerald-400">{legitimate}</span>
+          <span className="text-[10px] font-black text-emerald-500/80 uppercase tracking-widest mt-1">Legitimate</span>
         </div>
 
         {/* Warnings */}
-        <div className="bg-amber/10 rounded-2xl p-4 border border-amber/20 flex flex-col items-center justify-center text-center">
-          <div className="w-10 h-10 rounded-full bg-amber-light/20 text-amber-800 flex items-center justify-center mb-2">
+        <div className="bg-amber-500/5 rounded-2xl p-4 border border-amber-500/10 flex flex-col items-center justify-center text-center group hover:bg-amber-500/10 transition-all">
+          <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
             <AlertTriangle size={20} />
           </div>
-          <span className="text-2xl font-black text-amber-800">{warnings}</span>
-          <span className="text-xs font-semibold text-amber-800/80 uppercase tracking-wider mt-1">Warning</span>
+          <span className="text-2xl font-black text-amber-400">{warnings}</span>
+          <span className="text-[10px] font-black text-amber-500/80 uppercase tracking-widest mt-1">Caution</span>
         </div>
 
         {/* Fake */}
-        <div className="bg-coral/10 rounded-2xl p-4 border border-coral/20 flex flex-col items-center justify-center text-center">
-          <div className="w-10 h-10 rounded-full bg-coral-light/20 text-coral flex items-center justify-center mb-2">
+        <div className="bg-red-500/5 rounded-2xl p-4 border border-red-500/10 flex flex-col items-center justify-center text-center group hover:bg-red-500/10 transition-all">
+          <div className="w-10 h-10 rounded-xl bg-red-500/10 text-red-400 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
             <ShieldAlert size={20} />
           </div>
-          <span className="text-2xl font-black text-coral">{fake}</span>
-          <span className="text-xs font-semibold text-coral/80 uppercase tracking-wider mt-1">Fake</span>
+          <span className="text-2xl font-black text-red-400">{fake}</span>
+          <span className="text-[10px] font-black text-red-500/80 uppercase tracking-widest mt-1">Fraudulent</span>
         </div>
       </div>
     </div>

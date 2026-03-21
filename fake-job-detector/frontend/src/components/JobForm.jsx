@@ -19,26 +19,28 @@ const JobForm = ({ onAnalyze, isAnalyzing }) => {
   };
 
   return (
-    <div className="glass-card p-6 sm:p-8 transform transition-transform duration-300 relative overflow-hidden flex-1 h-full">
-      {/* Subtle top border decorative bar */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-light via-emerald to-emerald-dark"></div>
+    <div className="glass-card p-8 relative overflow-hidden flex-1 h-full border-white/5">
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-violet-500 via-purple-500 to-teal-500"></div>
 
       <form onSubmit={handleSubmit} className="space-y-6 h-full flex flex-col">
         <div className="flex-1">
-          <label className="block text-lg font-bold text-navy mb-3">
-            Paste Job Description or URL Here
+          <label className="block text-lg font-black text-white mb-4 tracking-tight">
+            Job Source Details
           </label>
           <div className="relative group">
             <textarea
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
-              placeholder="Enter job URL or description..."
-              className="input-field min-h-[160px] md:min-h-[200px]"
+              placeholder="Paste a job URL (LinkedIn, Indeed, etc.) or the full job description text here..."
+              className="input-field min-h-[220px] md:min-h-[260px] bg-white/5 border-white/10 hover:border-violet-500/30 focus:border-violet-500/50 transition-all duration-300 pr-12"
               disabled={isAnalyzing}
             />
-            {inputValue.length > 0 && !inputValue.trim().startsWith('http') && (
-              <div className="absolute bottom-4 right-5 text-sm font-semibold text-slate-400">
-                {inputValue.length} chars
+            <div className="absolute top-4 right-4 text-slate-600">
+              <Search size={20} />
+            </div>
+            {inputValue.length > 0 && (
+              <div className="absolute bottom-4 right-5 text-[10px] font-black uppercase tracking-widest text-slate-500 bg-[#0f0f1a] px-2 py-0.5 rounded border border-white/5">
+                {inputValue.length} CHARS
               </div>
             )}
           </div>
@@ -48,13 +50,20 @@ const JobForm = ({ onAnalyze, isAnalyzing }) => {
           <button
             type="submit"
             disabled={isAnalyzing || !inputValue.trim()}
-            className={`btn-primary w-full text-lg ${
-              (isAnalyzing || !inputValue.trim()) ? 'opacity-50 cursor-not-allowed' : ''
-            }`}
+            className="btn-primary w-full py-4 text-lg font-bold group"
           >
-            {isAnalyzing ? 'Scanning...' : 'Scan Now (Free)'}
-            {!isAnalyzing && <Search size={22} className="ml-1" strokeWidth={2.5} />}
+            {isAnalyzing ? (
+              <div className="w-6 h-6 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+            ) : (
+              <>
+                Analyze Posting
+                <Search size={20} className="ml-2 group-hover:scale-110 transition-transform" strokeWidth={3} />
+              </>
+            )}
           </button>
+          <p className="text-center text-slate-600 text-[10px] uppercase font-bold tracking-widest mt-4">
+            AI analysis may take up to 10 seconds
+          </p>
         </div>
       </form>
     </div>
