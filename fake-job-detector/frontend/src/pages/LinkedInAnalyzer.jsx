@@ -39,7 +39,6 @@ const LinkedInAnalyzer = () => {
   });
   const [results, setResults] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [inputMode, setInputMode] = useState('manual'); // 'url' or 'manual'
   const [showGuide, setShowGuide] = useState(false);
 
   const handleInputChange = (e) => {
@@ -57,7 +56,7 @@ const LinkedInAnalyzer = () => {
     try {
       const token = localStorage.getItem('token');
       const { data } = await axios.post(
-        `${API_URL}/linkedin/analyze`, 
+        `${API_URL}/tools/linkedin/analyze`, 
         formData,
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -101,40 +100,16 @@ const LinkedInAnalyzer = () => {
            >
               <div className="flex items-center justify-between mb-8">
                  <h3 className="text-lg font-bold text-white">Profile Details</h3>
-                 <div className="flex bg-white/5 p-1 rounded-xl border border-white/5">
-                    <button 
-                       onClick={() => setInputMode('url')}
-                       className={`px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase transition-all ${inputMode === 'url' ? 'bg-[#6366f1] text-white shadow-lg shadow-[#6366f1]/20' : 'text-[#8b8b99]'}`}
-                    >
-                       URL
-                    </button>
-                    <button 
-                       onClick={() => setInputMode('manual')}
-                       className={`px-3 py-1.5 rounded-lg text-[10px] font-bold uppercase transition-all ${inputMode === 'manual' ? 'bg-[#6366f1] text-white shadow-lg shadow-[#6366f1]/20' : 'text-[#8b8b99]'}`}
-                    >
-                       Manual
-                    </button>
-                 </div>
               </div>
 
-              {inputMode === 'url' ? (
-                 <div className="py-20 text-center">
-                    <div className="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-dashed border-white/10 text-[#55555f]">
-                       <Linkedin size={28} />
-                    </div>
-                    <p className="text-[#8b8b99] font-medium text-sm mb-6">LinkedIn API restricts direct URL scraping.<br />Please use <b>Manual Mode</b> for a deep AI audit.</p>
-                    <button onClick={() => setInputMode('manual')} className="text-[#6366f1] font-bold text-xs uppercase tracking-widest hover:underline">Switch to manual mode →</button>
-                 </div>
-              ) : (
-                 <div className="space-y-8">
-                    {/* INFO BOX */}
-                    <div className="bg-[#6366f1]/10 border border-[#6366f1]/20 rounded-2xl p-4 flex items-start gap-3 shadow-lg shadow-[#6366f1]/5">
+              <div className="space-y-8">
+                 {/* INFO BOX */}
+                 <div className="bg-[#6366f1]/10 border border-[#6366f1]/20 rounded-2xl p-4 flex items-start gap-3 shadow-lg shadow-[#6366f1]/5">
                        <div className="mt-0.5 text-[#6366f1] bg-white rounded-full p-0.5">
                           <Info size={14} fill="currentColor" className="text-white" />
                        </div>
                        <div>
-                          <p className="text-xs font-bold text-white mb-1">💡 Tip: Paste your profile sections</p>
-                          <p className="text-[10px] text-[#a5b4fc] font-medium leading-relaxed">LinkedIn blocks direct imports. Copy each section from your profile → Paste here. Takes 2 minutes!</p>
+                          <p className="text-xs font-bold text-white mb-1">💡 Tip: Open LinkedIn profile → Copy each section → Paste here. Takes 2 minutes!</p>
                        </div>
                     </div>
 
@@ -204,8 +179,8 @@ const LinkedInAnalyzer = () => {
                           <div className="space-y-2">
                              <label className="text-[10px] font-bold text-[#8b8b99] uppercase tracking-widest pl-1">1. Your Headline</label>
                              <div className="relative group">
-                                <input 
-                                  type="text" name="headline" placeholder="Ex: Final Year CSE Student | React Developer | Open to Work" 
+                                 <input 
+                                  type="text" name="headline" placeholder="Ex: CSE Student | React Developer | Open to Work" 
                                   className="input-field pr-10 focus:border-[#6366f1]/50" required
                                   value={formData.headline} onChange={handleInputChange}
                                 />
@@ -216,7 +191,7 @@ const LinkedInAnalyzer = () => {
                           <div className="space-y-2">
                              <label className="text-[10px] font-bold text-[#8b8b99] uppercase tracking-widest pl-1">2. About Section</label>
                              <textarea 
-                                name="about" placeholder="Paste your LinkedIn About section here..." 
+                                name="about" placeholder="Paste your LinkedIn About section..." 
                                 className="input-field min-h-[140px] resize-none py-4 focus:border-[#6366f1]/50" required
                                 value={formData.about} onChange={handleInputChange}
                              />
@@ -227,7 +202,7 @@ const LinkedInAnalyzer = () => {
                                 <label className="text-[10px] font-bold text-[#8b8b99] uppercase tracking-widest pl-1">3. Top 5 Skills</label>
                                 <div className="relative group">
                                    <input 
-                                     type="text" name="skills" placeholder="Ex: React.js, Node.js, Python, MongoDB, Git" 
+                                     type="text" name="skills" placeholder="React.js, Node.js, Python, MongoDB, Git" 
                                      className="input-field pr-10 focus:border-[#6366f1]/50" required
                                      value={formData.skills} onChange={handleInputChange}
                                    />
@@ -239,7 +214,7 @@ const LinkedInAnalyzer = () => {
                                 <label className="text-[10px] font-bold text-[#8b8b99] uppercase tracking-widest pl-1">4. Recent Job Title</label>
                                 <div className="relative group">
                                    <input 
-                                     type="text" name="recentJob" placeholder="Ex: Frontend Intern at Razorpay | SDE at TCS" 
+                                     type="text" name="recentJob" placeholder="Ex: Frontend Intern at Razorpay" 
                                      className="input-field pr-10 focus:border-[#6366f1]/50"
                                      value={formData.recentJob} onChange={handleInputChange}
                                    />
@@ -249,14 +224,14 @@ const LinkedInAnalyzer = () => {
                           </div>
 
                           <div className="space-y-2">
-                             <label className="text-[10px] font-bold text-[#8b8b99] uppercase tracking-widest pl-1">Connections Count</label>
+                             <label className="text-[10px] font-bold text-[#8b8b99] uppercase tracking-widest pl-1">Connections</label>
                              <div className="relative">
                                 <select 
                                    name="connections" className="input-field appearance-none cursor-pointer pr-10" 
                                    value={formData.connections} onChange={handleInputChange}
                                 >
                                    <option value="Under 100">Under 100</option>
-                                   <option value="100-500">100–500</option>
+                                   <option value="100-500">100-500</option>
                                    <option value="500+">500+</option>
                                 </select>
                                 <Users size={16} className="absolute right-4 top-1/2 -translate-y-1/2 text-[#55555f] pointer-events-none" />
@@ -301,7 +276,6 @@ const LinkedInAnalyzer = () => {
                        </form>
                     </div>
                  </div>
-              )}
            </motion.div>
         </div>
 

@@ -37,7 +37,9 @@ function FakeJobDetector() {
     setIsAnalyzing(true);
     setCurrentResult(null);
     try {
-      const res = await axios.post(`${API_URL}/jobs/analyze`, data);
+      const token = localStorage.getItem('token');
+      const headers = token ? { Authorization: `Bearer ${token}` } : {};
+      const res = await axios.post(`${API_URL}/jobs/analyze`, data, { headers });
       setCurrentResult(res.data);
       toast.success('Analysis complete! ✨');
       fetchHistory();

@@ -1,6 +1,7 @@
 const { analyzeJobPosting } = require('../services/aiService');
 const { verifyCompany, verifyEmailDomain } = require('../services/companyService');
 const JobAnalysis = require('../models/JobAnalysis');
+const User = require('../models/User');
 
 const analyzeJob = async (req, res) => {
   try {
@@ -53,6 +54,19 @@ const analyzeJob = async (req, res) => {
     });
 
     await newAnalysis.save();
+
+    if (req.user) {
+      await User.findByIdAndUpdate(req.user.id, {
+        $push: {
+          history: {
+            tool: 'fake-job-detector',
+            data: { source: url ? 'url' : 'text', preview: text.substring(0, 100) },
+            result: aiResult,
+            date: new Date()
+          }
+        }
+      });
+    }
 
     res.status(201).json(newAnalysis);
 

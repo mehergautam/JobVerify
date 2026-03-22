@@ -34,7 +34,7 @@ const CoverLetterGenerator = () => {
     try {
       const token = localStorage.getItem('token');
       const { data } = await axios.post(
-        `${API_URL}/cover-letter/generate`, 
+        `${API_URL}/tools/cover-letter/generate`, 
         formData,
         { headers: { Authorization: `Bearer ${token}` } }
       );
