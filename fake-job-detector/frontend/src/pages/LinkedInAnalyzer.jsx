@@ -4,7 +4,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 import {
   Linkedin, Search, ChevronRight, BarChart3,
-  Info, Zap, AlignLeft, Award, Users, Camera, Star, ArrowRight, CheckCircle2, Target, TrendingUp, ShieldCheck
+  Info, Zap, AlignLeft, Award, Users, Camera, Star, ArrowRight, CheckCircle2, Target, TrendingUp, ShieldCheck, Loader2, RefreshCw
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
