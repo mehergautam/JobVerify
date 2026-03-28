@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import JobForm from '../components/JobForm';
 import AnalysisResult from '../components/AnalysisResult';
 import HistoryList from '../components/HistoryList';
@@ -18,6 +18,48 @@ function FakeJobDetector() {
   const [history, setHistory] = useState([]);
   const [isLoadingHistory, setIsLoadingHistory] = useState(false);
   const [view, setView] = useState('analyze');
+  const [demoValue, setDemoValue] = useState('');
+  const resultRef = useRef(null);
+
+  const loadingMessages = [
+    "Checking company registration...",
+    "Scanning for fraud signals...",
+    "Comparing salary benchmarks...",
+    "Analyzing recruiter sentiment...",
+    "Verifying location authenticity...",
+    "Neutral scanning in progress..."
+  ];
+
+  const [messageIndex, setMessageIndex] = useState(0);
+
+  useEffect(() => {
+    let interval;
+    if (isAnalyzing) {
+      interval = setInterval(() => {
+        setMessageIndex((prev) => (prev + 1) % loadingMessages.length);
+      }, 2000);
+    } else {
+      setMessageIndex(0);
+    }
+    return () => clearInterval(interval);
+  }, [isAnalyzing]);
+
+  useEffect(() => {
+    if (currentResult && resultRef.current) {
+      setTimeout(() => {
+        const element = resultRef.current;
+        if (element) {
+          const yOffset = -100; // Adding a bit of padding above
+          const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }, 500);
+    }
+  }, [currentResult]);
+
+  const fillDemo = () => {
+    setDemoValue("We are looking for a Remote Data Entry Clerk. Salary: $45/hour. No experience needed. Immediate joining. Send $50 for security clearance to HR@DataJobsGlobal.cc. Apply now!");
+  };
 
   const fetchHistory = async () => {
     setIsLoadingHistory(true);
@@ -85,46 +127,59 @@ function FakeJobDetector() {
             <HistoryList history={history} isLoading={isLoadingHistory} />
           </motion.div>
         ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-            <div className="lg:col-span-8 space-y-6">
-              <JobForm onAnalyze={handleAnalyze} isAnalyzing={isAnalyzing} />
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <div className="lg:col-span-8">
+              <div className="bg-white rounded-[2rem] border border-[#E8E0D0] shadow-sm p-6 relative overflow-hidden flex flex-col">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-[#FAF7F2] rounded-bl-full border-l border-b border-[#E8E0D0]/30 -z-0" />
+                <JobForm onAnalyze={handleAnalyze} isAnalyzing={isAnalyzing} initialValue={demoValue} />
 
-              <AnimatePresence mode="wait">
-                {isAnalyzing ? (
-                  <motion.div
-                    key="analyzing"
-                    initial={{ opacity: 0, scale: 0.97 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0 }}
-                    className="bg-white rounded-2xl border border-[#E8E0D0] flex flex-col items-center justify-center p-16 min-h-[350px] shadow-sm"
-                  >
-                    <div className="relative w-16 h-16 mb-6">
-                      <div className="absolute inset-0 rounded-full border-4 border-[#E8E0D0]" />
-                      <div className="absolute inset-0 rounded-full border-4 border-[#C9A84C] border-t-transparent animate-spin" />
-                      <ShieldCheck className="absolute inset-0 m-auto text-[#2D4A3E]" size={26} />
-                    </div>
-                    <h3 className="text-xl font-bold text-[#1A2E25] mb-2">Scanning Posting...</h3>
-                    <p className="text-[#9AB5A8] text-sm max-w-xs text-center">AI is running 50+ checks including company verification, salary benchmarks, and red flag detection.</p>
-                  </motion.div>
-                ) : currentResult ? (
-                  <motion.div key="result" initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }}>
-                    <AnalysisResult result={currentResult} />
-                  </motion.div>
-                ) : (
-                  <motion.div
-                    key="empty"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    className="bg-white border-2 border-dashed border-[#E8E0D0] rounded-2xl flex flex-col items-center justify-center p-16 text-center min-h-[350px] hover:border-[#C9A84C] transition-colors group"
-                  >
-                    <div className="w-16 h-16 bg-[#F5F0E8] rounded-2xl flex items-center justify-center mb-4 group-hover:bg-[#FDF3DC] transition-colors">
-                      <Search size={28} className="text-[#9AB5A8] group-hover:text-[#C9A84C] transition-colors" />
-                    </div>
-                    <h3 className="text-lg font-bold text-[#1A2E25] mb-2">Ready for Analysis</h3>
-                    <p className="max-w-xs text-[#9AB5A8] text-sm">Paste a job description to generate a comprehensive AI-powered legitimacy report instantly.</p>
-                  </motion.div>
-                )}
-              </AnimatePresence>
+                <AnimatePresence mode="wait">
+                  {isAnalyzing && (
+                    <motion.div
+                      key="analyzing"
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      className="bg-[#1A2E25] rounded-xl border border-[#2D4A3E] flex flex-col items-center justify-center py-8 mt-6 shadow-md relative overflow-hidden"
+                    >
+                       <div className="absolute top-0 right-0 w-32 h-32 bg-[#C9A84C]/5 rounded-bl-full pointer-events-none" />
+                       <div className="absolute top-0 left-0 w-full h-1 bg-[#0D1813] overflow-hidden">
+                          <motion.div initial={{ x: '-100%' }} animate={{ x: '100%' }} transition={{ duration: 1.5, repeat: Infinity, ease: 'linear' }} className="w-1/3 h-full bg-[#C9A84C]" />
+                       </div>
+
+                      <div className="relative w-12 h-12 mb-4 z-10">
+                        <div className="absolute inset-0 rounded-full border-[3px] border-[#0D1813]" />
+                        <div className="absolute inset-0 rounded-full border-[3px] border-[#C9A84C] border-t-transparent animate-spin" />
+                        <ShieldCheck className="absolute inset-0 m-auto text-[#C9A84C]" size={20} />
+                      </div>
+                      
+                      <h3 className="text-sm font-bold text-[#F5F0E8] mb-1 z-10">Deep Forensic Scan</h3>
+                      <AnimatePresence mode="wait">
+                         <motion.p 
+                            key={messageIndex}
+                            initial={{ opacity:0, y: 5 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -5 }}
+                            className="text-[#C9A84C] font-black text-[9px] uppercase tracking-[0.2em] h-3 z-10"
+                         >
+                            {loadingMessages[messageIndex]}
+                         </motion.p>
+                      </AnimatePresence>
+                    </motion.div>
+                  )}
+                  {currentResult && !isAnalyzing && (
+                    <motion.div 
+                      key="result" 
+                      ref={resultRef} 
+                      initial={{ opacity: 0, height: 0 }} 
+                      animate={{ opacity: 1, height: 'auto' }}
+                      className="mt-6"
+                    >
+                      <AnalysisResult result={currentResult} />
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
             </div>
 
             <div className="lg:col-span-4 space-y-6">

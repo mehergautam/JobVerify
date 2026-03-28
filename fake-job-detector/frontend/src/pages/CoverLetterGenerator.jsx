@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 import {
   Sparkles, Send, Copy, Download,
   RefreshCw, ChevronRight, Briefcase,
-  Building2, MessageSquare
+  Building2, MessageSquare, Wand2, ArrowRight, CheckCircle2, Info, FileText
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -22,6 +22,17 @@ const CoverLetterGenerator = () => {
   });
   const [generatedLetter, setGeneratedLetter] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+
+  const fillDemo = () => {
+    setFormData({
+      jobTitle: 'Senior React Developer',
+      company: 'Innovate Solutions',
+      jobDescription: 'Seeking a developer with 5+ years of experience in React, Node.js, and Cloud architectures...',
+      skills: 'React, Redux, Node.js, AWS, TypeScript',
+      experience: '5+ years',
+      tone: 'Confident'
+    });
+  };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -81,123 +92,161 @@ const CoverLetterGenerator = () => {
         </div>
       </div>
 
-      <div className="px-8 py-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pb-6">
+      <div className="px-8 py-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pb-6">
           {/* Input */}
-          <motion.div initial={{ opacity: 0, x: -15 }} animate={{ opacity: 1, x: 0 }}
-            className="bg-white rounded-2xl border border-[#E8E0D0] shadow-sm p-6"
+          <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }}
+            className="bg-[#0D1813] rounded-[2rem] border border-[#2D4A3E] shadow-2xl p-8 relative overflow-hidden"
           >
-            <h3 className="text-sm font-semibold text-[#1A2E25] mb-5 flex items-center gap-2">
-              <Briefcase size={16} className="text-[#C9A84C]" /> Job Details
-            </h3>
+            <div className="absolute top-0 right-0 w-32 h-32 bg-[#1A2E25] rounded-bl-full border-l border-b border-[#3D5A4F] -z-0" />
+            
+            <div className="relative z-10">
+               <div className="flex items-center justify-between mb-8">
+                  <h3 className="text-sm font-bold text-[#F5F0E8] uppercase tracking-widest flex items-center gap-2">
+                     <Wand2 size={18} className="text-[#C9A84C]" /> Draft Parameters
+                  </h3>
+                  <button onClick={fillDemo} className="text-[10px] font-extrabold text-[#4CAF7D] uppercase tracking-widest hover:text-[#C9A84C] transition-colors">
+                     Load Sample Context
+                  </button>
+               </div>
 
-            <form onSubmit={handleGenerate} className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div className="space-y-1.5">
-                  <label className="text-xs font-semibold text-[#6B8A7A] uppercase tracking-widest">Job Title</label>
-                  <div className="relative">
-                    <input type="text" name="jobTitle" placeholder="Software Engineer" className="input-field pr-9" required value={formData.jobTitle} onChange={handleInputChange} />
-                    <Send size={14} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[#9AB5A8]" />
-                  </div>
-                </div>
-                <div className="space-y-1.5">
-                  <label className="text-xs font-semibold text-[#6B8A7A] uppercase tracking-widest">Company</label>
-                  <div className="relative">
-                    <input type="text" name="company" placeholder="Google, Tata, etc." className="input-field pr-9" required value={formData.company} onChange={handleInputChange} />
-                    <Building2 size={14} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-[#9AB5A8]" />
-                  </div>
-                </div>
-              </div>
+                 <form onSubmit={handleGenerate} className="space-y-6">
+                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                   <div className="space-y-2">
+                     <label className="text-[10px] font-extrabold text-[#6B8A7A] uppercase tracking-[0.2em] ml-1">Desired Role</label>
+                     <div className="relative group">
+                       <input type="text" name="jobTitle" placeholder="e.g. UX Designer" className="input-field py-4 pr-10 pl-5 bg-[#1A2E25] border-[#3D5A4F] text-[#F5F0E8] focus:bg-[#0D1813] focus:border-[#C9A84C]" required value={formData.jobTitle} onChange={handleInputChange} />
+                       <Briefcase size={16} className="absolute right-4 top-1/2 -translate-y-1/2 text-[#6B8A7A] group-focus-within:text-[#C9A84C] transition-colors" />
+                     </div>
+                   </div>
+                   <div className="space-y-2">
+                     <label className="text-[10px] font-extrabold text-[#6B8A7A] uppercase tracking-[0.2em] ml-1">Target Company</label>
+                     <div className="relative group">
+                       <input type="text" name="company" placeholder="e.g. OpenAI" className="input-field py-4 pr-10 pl-5 bg-[#1A2E25] border-[#3D5A4F] text-[#F5F0E8] focus:bg-[#0D1813] focus:border-[#C9A84C]" required value={formData.company} onChange={handleInputChange} />
+                       <Building2 size={16} className="absolute right-4 top-1/2 -translate-y-1/2 text-[#6B8A7A] group-focus-within:text-[#C9A84C] transition-colors" />
+                     </div>
+                   </div>
+                 </div>
 
-              <div className="space-y-1.5">
-                <label className="text-xs font-semibold text-[#6B8A7A] uppercase tracking-widest">Job Description</label>
-                <textarea name="jobDescription" placeholder="Paste the job description..." className="input-field min-h-[130px] resize-none py-3" required value={formData.jobDescription} onChange={handleInputChange} />
-              </div>
+                 <div className="space-y-2">
+                   <label className="text-[10px] font-extrabold text-[#6B8A7A] uppercase tracking-[0.2em] ml-1">Job Description Core</label>
+                   <textarea name="jobDescription" placeholder="Paste key requirements from the job posting..." className="input-field min-h-[140px] resize-none py-4 px-5 bg-[#1A2E25] border-[#3D5A4F] text-[#F5F0E8] focus:bg-[#0D1813] focus:border-[#C9A84C] text-sm" required value={formData.jobDescription} onChange={handleInputChange} />
+                 </div>
 
-              <div className="space-y-1.5">
-                <label className="text-xs font-semibold text-[#6B8A7A] uppercase tracking-widest">Your Key Skills</label>
-                <input type="text" name="skills" placeholder="React, Node.js, Python, Leadership..." className="input-field" required value={formData.skills} onChange={handleInputChange} />
-              </div>
+                 <div className="space-y-2">
+                   <label className="text-[10px] font-extrabold text-[#6B8A7A] uppercase tracking-[0.2em] ml-1">Your Competitive Skills</label>
+                   <input type="text" name="skills" placeholder="List your top 3-5 technical skills..." className="input-field py-4 px-5 bg-[#1A2E25] border-[#3D5A4F] text-[#F5F0E8] focus:bg-[#0D1813] focus:border-[#C9A84C]" required value={formData.skills} onChange={handleInputChange} />
+                 </div>
 
-              <div className="grid grid-cols-2 gap-3">
-                <div className="space-y-1.5">
-                  <label className="text-xs font-semibold text-[#6B8A7A] uppercase tracking-widest">Experience</label>
-                  <select name="experience" className="input-field appearance-none" value={formData.experience} onChange={handleInputChange}>
-                    <option>Fresher</option>
-                    <option value="1-2 years">1-2 years</option>
-                    <option value="3-5 years">3-5 years</option>
-                    <option value="5+ years">5+ years</option>
-                  </select>
-                </div>
-                <div className="space-y-1.5">
-                  <label className="text-xs font-semibold text-[#6B8A7A] uppercase tracking-widest">Tone</label>
-                  <select name="tone" className="input-field appearance-none" value={formData.tone} onChange={handleInputChange}>
-                    <option>Professional</option>
-                    <option>Confident</option>
-                    <option>Enthusiastic</option>
-                    <option>Concise</option>
-                  </select>
-                </div>
-              </div>
+                 <div className="grid grid-cols-2 gap-4">
+                   <div className="space-y-2">
+                     <label className="text-[10px] font-extrabold text-[#6B8A7A] uppercase tracking-[0.2em] ml-1">Years Active</label>
+                     <select name="experience" className="input-field py-4 px-5 bg-[#1A2E25] border-[#3D5A4F] text-[#F5F0E8] focus:border-[#C9A84C] appearance-none" value={formData.experience} onChange={handleInputChange}>
+                       <option>Fresher</option>
+                       <option value="1-2 years">1-2 years</option>
+                       <option value="3-5 years">3-5 years</option>
+                       <option value="5+ years">5+ years</option>
+                     </select>
+                   </div>
+                   <div className="space-y-2">
+                     <label className="text-[10px] font-extrabold text-[#6B8A7A] uppercase tracking-[0.2em] ml-1">Persuasion Tone</label>
+                     <select name="tone" className="input-field py-4 px-5 bg-[#1A2E25] border-[#3D5A4F] text-[#F5F0E8] focus:border-[#C9A84C] appearance-none" value={formData.tone} onChange={handleInputChange}>
+                       <option>Professional</option>
+                       <option>Confident</option>
+                       <option>Enthusiastic</option>
+                       <option>Concise</option>
+                     </select>
+                   </div>
+                 </div>
 
-              <button type="submit" disabled={isLoading}
-                className="w-full bg-[#C9A84C] text-white font-semibold py-3 rounded-lg shadow-[0_4px_12px_rgba(201,168,76,0.25)] hover:bg-[#B8943D] transition-all flex items-center justify-center gap-2 disabled:opacity-60"
-              >
-                {isLoading ? <><div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" /><span>Writing your letter...</span></> : '✨ Generate Cover Letter'}
-              </button>
-            </form>
+                 <button type="submit" disabled={isLoading}
+                   className="w-full bg-[#2D4A3E] text-white font-bold py-5 rounded-2xl shadow-xl hover:bg-[#1A2E25] hover:scale-[1.01] transition-all flex items-center justify-center gap-4 disabled:opacity-60"
+                 >
+                   {isLoading ? (
+                     <><Loader2 size={20} className="animate-spin" /><span>Consulting Writing Paradigms...</span></>
+                   ) : (
+                     <><Sparkles size={20} className="text-[#C9A84C]" /><span>Generate High-Impact Draft</span></>
+                   )}
+                 </button>
+               </form>
+            </div>
           </motion.div>
 
           {/* Output */}
-          <motion.div initial={{ opacity: 0, x: 15 }} animate={{ opacity: 1, x: 0 }}
-            className="bg-white rounded-2xl border border-[#E8E0D0] shadow-sm p-6 flex flex-col"
+          <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }}
+            className="bg-[#0D1813] rounded-[2rem] border border-[#2D4A3E] shadow-2xl p-8 flex flex-col"
           >
-            <div className="flex items-center justify-between mb-5">
-              <h3 className="text-sm font-semibold text-[#1A2E25] flex items-center gap-2">
-                <MessageSquare size={16} className="text-[#C9A84C]" /> Your Cover Letter
-              </h3>
+            <div className="flex items-center justify-between mb-8">
+              <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-2xl bg-[#1A2E25] text-[#4CAF7D] flex items-center justify-center border border-[#3D5A4F] shadow-inner">
+                     <FileText size={20} />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-bold text-[#F5F0E8] uppercase tracking-wide">Generated Draft</h3>
+                    <p className="text-[10px] text-[#9AB5A8] font-bold uppercase tracking-widest mt-0.5">Optimized for {formData.company || 'Recruiter'}</p>
+                  </div>
+              </div>
               {generatedLetter && (
-                <div className="flex items-center gap-1.5">
-                  <button onClick={copyToClipboard} className="p-1.5 rounded-lg bg-[#F5F0E8] text-[#9AB5A8] hover:text-[#2D4A3E] transition-colors" title="Copy"><Copy size={15} /></button>
-                  <button onClick={downloadTxt} className="p-1.5 rounded-lg bg-[#F5F0E8] text-[#9AB5A8] hover:text-[#2D4A3E] transition-colors" title="Download"><Download size={15} /></button>
+                <div className="flex items-center gap-2">
+                  <button onClick={copyToClipboard} className="w-9 h-9 flex items-center justify-center rounded-xl bg-[#1A2E25] border border-[#3D5A4F] text-[#9AB5A8] hover:text-[#C9A84C] hover:border-[#C9A84C] transition-all shadow-sm" title="Copy"><Copy size={16} /></button>
+                  <button onClick={downloadTxt} className="w-9 h-9 flex items-center justify-center rounded-xl bg-[#1A2E25] border border-[#3D5A4F] text-[#9AB5A8] hover:text-[#C9A84C] hover:border-[#C9A84C] transition-all shadow-sm" title="Download"><Download size={16} /></button>
                 </div>
               )}
             </div>
 
-            <div className="flex-1 min-h-[400px] bg-[#FAF7F2] border border-[#E8E0D0] rounded-xl p-5 relative">
+            <div className="flex-1 min-h-[450px] bg-[#1A2E25] border border-[#3D5A4F] rounded-3xl p-8 relative overflow-hidden group shadow-inner">
               {!generatedLetter && !isLoading && (
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
-                  <div className="w-14 h-14 rounded-full bg-[#F5F0E8] border-2 border-dashed border-[#E8E0D0] flex items-center justify-center text-[#C9A84C] mb-4">
-                    <Sparkles size={26} />
+                  <div className="w-20 h-20 rounded-full bg-[#0D1813] border-2 border-dashed border-[#2D4A3E] flex items-center justify-center text-[#C9A84C] mb-6 group-hover:scale-110 transition-transform shadow-inner">
+                    <Sparkles size={36} />
                   </div>
-                  <p className="text-[#9AB5A8] text-sm font-medium">Your cover letter will appear here</p>
-                  <p className="text-xs text-[#C4B9A8] mt-1">Fill in the details on the left</p>
+                  <h4 className="text-lg font-bold text-[#F5F0E8] mb-2">Awaiting Analysis</h4>
+                  <p className="text-[#9AB5A8] text-sm max-w-xs leading-relaxed">Fill in the job context to generate a high-impact, AI-personalized cover letter.</p>
                 </div>
               )}
 
               {isLoading && (
-                <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-[#FAF7F2]/90 z-10 rounded-xl">
-                  <div className="w-10 h-10 border-3 border-[#C9A84C]/30 border-t-[#C9A84C] rounded-full animate-spin mb-3" style={{ borderWidth: 3 }} />
-                  <p className="text-[#1A2E25] font-semibold text-sm">AI is writing your letter...</p>
-                  <p className="text-xs text-[#9AB5A8] mt-1 animate-pulse">Personalizing for {formData.company}</p>
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-[#1A2E25]/95 z-10 rounded-3xl backdrop-blur-sm">
+                   <div className="relative mb-6">
+                      <div className="w-16 h-16 border-4 border-[#C9A84C]/20 border-t-[#C9A84C] rounded-full animate-spin" />
+                      <MessageSquare className="absolute inset-0 m-auto text-[#C9A84C]" size={24} />
+                   </div>
+                  <p className="text-[#F5F0E8] font-bold text-lg mb-1">Synthesizing Voice...</p>
+                  <p className="text-sm text-[#C9A84C] animate-pulse">Infusing {formData.tone} nuances for {formData.company}</p>
                 </div>
               )}
 
               {generatedLetter && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-                  className="h-full whitespace-pre-wrap text-[#3D5A4F] leading-relaxed text-sm overflow-y-auto"
+                  className="h-full whitespace-pre-wrap text-[#9AB5A8] leading-7 text-sm overflow-y-auto pr-2 custom-scrollbar font-medium"
                 >
                   {generatedLetter}
+                  <div className="mt-12 pt-8 border-t border-[#3D5A4F] flex items-center justify-between opacity-60">
+                     <p className="text-[10px] font-bold uppercase tracking-widest text-[#6B8A7A]">AI SECURE GENERATION • {new Date().toLocaleDateString()}</p>
+                     <CheckCircle2 size={16} className="text-[#4CAF7D]" />
+                  </div>
                 </motion.div>
               )}
             </div>
 
             {generatedLetter && (
-              <div className="mt-4 flex items-center justify-between">
-                <p className="text-xs text-[#9AB5A8]">~ {generatedLetter.split(' ').length} words</p>
-                <button onClick={() => handleGenerate(null)} className="text-xs font-semibold text-[#9AB5A8] hover:text-[#C9A84C] transition-colors flex items-center gap-1.5">
-                  <RefreshCw size={12} /> Regenerate
-                </button>
+              <div className="mt-6 flex flex-wrap items-center justify-between gap-4">
+                <div className="flex gap-2">
+                   {['Strong Hook', 'Skill Match', 'Company Value'].map((tag, i) => (
+                      <span key={i} className="px-3 py-1 bg-[#1A2E25] text-[9px] font-black text-[#4CAF7D] uppercase tracking-tighter border border-[#3D5A4F] rounded-lg shadow-sm">
+                         ✓ {tag}
+                      </span>
+                   ))}
+                </div>
+                <div className="flex items-center gap-6">
+                   <div className="text-right">
+                      <p className="text-[10px] font-extrabold text-[#9AB5A8] uppercase tracking-widest">Word Count</p>
+                      <p className="text-xs font-bold text-[#F5F0E8]">{generatedLetter.split(/\s+/).filter(x => x).length} Words</p>
+                   </div>
+                   <button onClick={() => handleGenerate(null)} className="h-10 px-4 rounded-xl bg-[#1A2E25] border border-[#2D4A3E] text-[10px] font-extrabold text-[#9AB5A8] uppercase tracking-widest hover:text-[#C9A84C] hover:border-[#C9A84C] transition-all flex items-center gap-2 group/btn shadow-sm">
+                     <RefreshCw size={12} className="group-hover/btn:rotate-180 transition-transform duration-500" /> Rewrite Draft
+                   </button>
+                </div>
               </div>
             )}
           </motion.div>
