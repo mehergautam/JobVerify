@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "JobVerify AI - Fake Job Detector",
+  "version": "1.0.0",
+  "description": "Auto-detects job postings on LinkedIn, Naukri, Indeed, and Internshala to verify authenticity.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://*.linkedin.com/*",
+    "https://*.naukri.com/*",
+    "https://*.indeed.com/*",
+    "https://*.internshala.com/*",
+    "https://jobverify-goz7.onrender.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.linkedin.com/jobs/*",
+        "*://*.naukri.com/job-listings-*",
+        "*://*.indeed.com/viewjob*",
+        "*://*.internshala.com/job/*",
+        "*://*.internshala.com/internship/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

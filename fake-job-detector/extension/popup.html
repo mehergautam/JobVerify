@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobVerify Extension</title>
+  <style>
+    body {
+      width: 320px;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #131316;
+      color: #F5F0E8;
+    }
+    .header {
+      background-color: #2D4A3E;
+      padding: 16px;
+      border-bottom: 1px solid #1A2E25;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 18px;
+      color: #C9A84C;
+    }
+    .content {
+      padding: 16px;
+    }
+    .status-card {
+      background-color: #1A2E25;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      text-align: center;
+      border: 1px solid #2D4A3E;
+    }
+    .status-card.danger {
+      background-color: #2a1b1b;
+      border-color: rgba(224, 92, 92, 0.5);
+    }
+    .score {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .danger .score {
+      color: #E05C5C;
+    }
+    .safe .score {
+      color: #4CAF7D;
+    }
+    .red-flags {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      font-size: 13px;
+    }
+    .red-flags li {
+      color: #E05C5C;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: #C9A84C;
+      color: #131316;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 14px;
+      transition: background-color 0.2s;
+    }
+    .btn:hover {
+      background-color: #D4B663;
+    }
+    .loading {
+      text-align: center;
+      font-style: italic;
+      color: #9AB5A8;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>JobVerify</h1>
+  </div>
+  <div class="content" id="app">
+    <div class="loading">Waiting for job data... Open a job page to start analysis.</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

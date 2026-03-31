@@ -1,0 +1,3122 @@
+[
+  {
+    "companyName": "TCS",
+    "cin": "L57248MH2028PLC511264",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "Infosys",
+    "cin": "L12865MH2027PLC317843",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "Wipro",
+    "cin": "L89587MH2014PLC808634",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "HCL Technologies",
+    "cin": "L77259MH2015PLC304446",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "Tech Mahindra",
+    "cin": "L28300MH2026PLC417568",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "Reliance Industries",
+    "cin": "L62687MH2020PLC913870",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "Tata Motors",
+    "cin": "L86231MH2020PLC758932",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "Mahindra & Mahindra",
+    "cin": "L95978MH2010PLC420690",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "Larsen & Toubro",
+    "cin": "L71988MH2014PLC602745",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "HDFC Bank",
+    "cin": "L77936MH2021PLC725411",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "ICICI Bank",
+    "cin": "L54952MH2025PLC452419",
+    "status": "Active",
+    "verificationScore": 80
+  },
+  {
+    "companyName": "State Bank of India",
+    "cin": "L34332MH2013PLC536171",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "Axis Bank",
+    "cin": "L74342MH2015PLC413038",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "Kotak Mahindra Bank",
+    "cin": "L43773MH2028PLC872136",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "Zomato",
+    "cin": "L25268MH2022PLC106179",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "Swiggy",
+    "cin": "L13740MH2023PLC945557",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "Flipkart",
+    "cin": "L46558MH2011PLC294612",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "Paytm",
+    "cin": "L21298MH2018PLC360473",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "Razorpay",
+    "cin": "L12260MH2017PLC157371",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "Ola",
+    "cin": "L15869MH2017PLC866279",
+    "status": "Active",
+    "verificationScore": 99
+  },
+  {
+    "companyName": "Oyo",
+    "cin": "L88266MH2014PLC273887",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "Cred",
+    "cin": "L87358MH2029PLC239136",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "BharatPe",
+    "cin": "L86232MH2010PLC157718",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "PhonePe",
+    "cin": "L84424MH2017PLC406763",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "MakeMakeTrip",
+    "cin": "L14980MH2011PLC757941",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "Nykaa",
+    "cin": "L61711MH2024PLC977169",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "Zerodha",
+    "cin": "L26843MH2012PLC294508",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "Upstox",
+    "cin": "L26266MH2025PLC838516",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "Meesho",
+    "cin": "L50845MH2012PLC188875",
+    "status": "Active",
+    "verificationScore": 80
+  },
+  {
+    "companyName": "Tata Consultancy Services",
+    "cin": "L97192MH2024PLC984668",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "HCL",
+    "cin": "L28964MH2028PLC851848",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen FPS5KD Solutions",
+    "cin": "U82903KA2016PTC952890",
+    "status": "Active",
+    "verificationScore": 64
+  },
+  {
+    "companyName": "AlphaGen KLRZO3 Group",
+    "cin": "U31042KA2016PTC825247",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen C7QURE Corp",
+    "cin": "U61403KA2014PTC543241",
+    "status": "Active",
+    "verificationScore": 70
+  },
+  {
+    "companyName": "AlphaGen ZIB6AU Solutions",
+    "cin": "U95112KA2011PTC142409",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen WZFFAJ Group",
+    "cin": "U14398KA2015PTC547928",
+    "status": "Inactive",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen 9R44PP Solutions",
+    "cin": "U25569KA2010PTC644252",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen PRE4FJ Corp",
+    "cin": "U41244KA2013PTC872077",
+    "status": "Active",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen JT7J0D Services",
+    "cin": "U49573KA2016PTC547803",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen ZAKOLK Corp",
+    "cin": "U64941KA2025PTC847290",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen 33V29T Private Limited",
+    "cin": "U65680KA2025PTC856945",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen LW4YLH Services",
+    "cin": "U34898KA2022PTC539657",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen KJCHJT Solutions",
+    "cin": "U92237KA2025PTC815891",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen 35VOVM Technologies",
+    "cin": "U40532KA2014PTC765521",
+    "status": "Active",
+    "verificationScore": 80
+  },
+  {
+    "companyName": "AlphaGen M6MW7T Limited",
+    "cin": "U78783KA2013PTC717003",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen ZQ80HU Corp",
+    "cin": "U93624KA2012PTC311897",
+    "status": "Active",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen Q73MMX Private Limited",
+    "cin": "U62619KA2023PTC509743",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen CV508X Private Limited",
+    "cin": "U85572KA2017PTC111117",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen ZD6GF0 Technologies",
+    "cin": "U84349KA2015PTC787783",
+    "status": "Active",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen EFQWSG Solutions",
+    "cin": "U54653KA2021PTC586455",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen T0U042 Limited",
+    "cin": "U82678KA2026PTC862789",
+    "status": "Inactive",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen DWZME2 Private Limited",
+    "cin": "U11754KA2012PTC940222",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen RXYPJ8 Group",
+    "cin": "U65747KA2025PTC349850",
+    "status": "Inactive",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen I5AZKO Corp",
+    "cin": "U16394KA2016PTC623714",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen LA0OXB Services",
+    "cin": "U14680KA2011PTC185770",
+    "status": "Active",
+    "verificationScore": 80
+  },
+  {
+    "companyName": "AlphaGen H9XBDU Corp",
+    "cin": "U15310KA2014PTC971334",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen 0JGD3S Private Limited",
+    "cin": "U53952KA2026PTC520191",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen MC62AF Solutions",
+    "cin": "U35972KA2012PTC793443",
+    "status": "Inactive",
+    "verificationScore": 70
+  },
+  {
+    "companyName": "AlphaGen 8UZBCQ Technologies",
+    "cin": "U18839KA2027PTC110015",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen BCWU6C Private Limited",
+    "cin": "U39839KA2027PTC678016",
+    "status": "Active",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen 9EZVKE Services",
+    "cin": "U67247KA2021PTC848879",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen M3S3U3 Technologies",
+    "cin": "U65491KA2019PTC848946",
+    "status": "Inactive",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "AlphaGen F1FJJX Solutions",
+    "cin": "U74027KA2021PTC791652",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen 5Q6BDU Group",
+    "cin": "U48844KA2018PTC644001",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen L8FGVL Group",
+    "cin": "U20508KA2018PTC474385",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen T9GBH1 Private Limited",
+    "cin": "U24004KA2028PTC510371",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen X6CO0R Private Limited",
+    "cin": "U67796KA2019PTC823878",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen HZY2YC Group",
+    "cin": "U24878KA2028PTC642965",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen I31O0A Group",
+    "cin": "U82610KA2029PTC715804",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen NLZ4XZ Solutions",
+    "cin": "U71406KA2020PTC433120",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen A6TT8C Corp",
+    "cin": "U19973KA2019PTC136769",
+    "status": "Active",
+    "verificationScore": 68
+  },
+  {
+    "companyName": "AlphaGen BB3GQ9 Solutions",
+    "cin": "U39597KA2024PTC486857",
+    "status": "Inactive",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen F1AHF4 Solutions",
+    "cin": "U45083KA2029PTC536884",
+    "status": "Inactive",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen 58AYEB Group",
+    "cin": "U42583KA2027PTC853904",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen 7QUVH3 Group",
+    "cin": "U19469KA2015PTC711242",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen 3HGBPK Technologies",
+    "cin": "U43492KA2026PTC846079",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "AlphaGen VBZ0H3 Private Limited",
+    "cin": "U30884KA2014PTC284558",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen SLKIQ4 Group",
+    "cin": "U90238KA2025PTC857837",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen LN8USQ Solutions",
+    "cin": "U52313KA2014PTC867737",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen RUS3WF Private Limited",
+    "cin": "U30552KA2021PTC115092",
+    "status": "Inactive",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen 1ALPZM Group",
+    "cin": "U42895KA2017PTC700928",
+    "status": "Active",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen U69MAV Private Limited",
+    "cin": "U48246KA2024PTC894139",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen XZYUAA Corp",
+    "cin": "U57787KA2029PTC473940",
+    "status": "Active",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen 9ZAMKS Corp",
+    "cin": "U66473KA2029PTC154468",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen J8AYAR Solutions",
+    "cin": "U13232KA2025PTC316201",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen O0SYJL Technologies",
+    "cin": "U56379KA2013PTC189144",
+    "status": "Inactive",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen IXICVW Group",
+    "cin": "U18884KA2027PTC197215",
+    "status": "Inactive",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen GP08A3 Services",
+    "cin": "U31722KA2017PTC370598",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen 4UVXR8 Private Limited",
+    "cin": "U45167KA2012PTC813077",
+    "status": "Inactive",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen 1DFP8G Group",
+    "cin": "U39748KA2020PTC837516",
+    "status": "Active",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen 2Q8TEQ Technologies",
+    "cin": "U89541KA2019PTC806871",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen T9ZQ7J Services",
+    "cin": "U29969KA2023PTC415098",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen SFUFV3 Private Limited",
+    "cin": "U53458KA2010PTC461824",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen 2IJY1O Limited",
+    "cin": "U63538KA2024PTC367719",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen C4GWFP Group",
+    "cin": "U50738KA2024PTC196661",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen 22AWWJ Private Limited",
+    "cin": "U36875KA2019PTC135321",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen 43W2N5 Services",
+    "cin": "U95906KA2026PTC808415",
+    "status": "Active",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen GXC307 Private Limited",
+    "cin": "U54955KA2022PTC336645",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen YMEGHG Services",
+    "cin": "U44267KA2012PTC251680",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen IDM4BQ Corp",
+    "cin": "U62071KA2021PTC256924",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen B2TCI5 Technologies",
+    "cin": "U99361KA2012PTC807121",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen Z96QSS Group",
+    "cin": "U67488KA2018PTC696055",
+    "status": "Inactive",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen 7F4UY6 Group",
+    "cin": "U83171KA2015PTC406142",
+    "status": "Inactive",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen UG6NGG Solutions",
+    "cin": "U30804KA2012PTC840491",
+    "status": "Active",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen 1GQ5XL Private Limited",
+    "cin": "U81920KA2018PTC738270",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen HJ4BL5 Services",
+    "cin": "U62668KA2019PTC189729",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen 07PRWV Limited",
+    "cin": "U71585KA2019PTC679059",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen TZZOKT Group",
+    "cin": "U71758KA2023PTC388431",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen BGUOJ0 Private Limited",
+    "cin": "U93507KA2027PTC107765",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen YY1QHO Corp",
+    "cin": "U63902KA2012PTC725002",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen 21CVAW Group",
+    "cin": "U76007KA2010PTC696161",
+    "status": "Active",
+    "verificationScore": 99
+  },
+  {
+    "companyName": "AlphaGen E8L14A Technologies",
+    "cin": "U25399KA2023PTC760490",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen ZN22E3 Solutions",
+    "cin": "U54334KA2017PTC635109",
+    "status": "Active",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen KB6I9K Corp",
+    "cin": "U52672KA2022PTC622933",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen 4QFW2Z Technologies",
+    "cin": "U38788KA2020PTC112129",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen LB20BO Technologies",
+    "cin": "U56060KA2023PTC148665",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen RZYZ5H Private Limited",
+    "cin": "U87956KA2017PTC997180",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen HMGAOQ Limited",
+    "cin": "U55853KA2022PTC112298",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen EXQY0M Limited",
+    "cin": "U84648KA2014PTC122084",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen O139D5 Solutions",
+    "cin": "U31333KA2023PTC783284",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen 6H4W84 Services",
+    "cin": "U25062KA2026PTC538499",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen 76L5J3 Services",
+    "cin": "U15268KA2019PTC653379",
+    "status": "Inactive",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen 2LQGZS Group",
+    "cin": "U48646KA2016PTC547506",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen ZS6P15 Limited",
+    "cin": "U42204KA2029PTC233414",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen 32EFSI Technologies",
+    "cin": "U53072KA2029PTC827299",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen NSD86P Limited",
+    "cin": "U84067KA2021PTC764960",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen KCESBX Solutions",
+    "cin": "U65114KA2016PTC558635",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen 4PCE2U Services",
+    "cin": "U86879KA2020PTC532131",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen JEK3KT Group",
+    "cin": "U32737KA2013PTC661858",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen L9BHS1 Private Limited",
+    "cin": "U84279KA2011PTC770805",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen 1L2SSV Limited",
+    "cin": "U74990KA2024PTC744827",
+    "status": "Active",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen GM7VJ9 Corp",
+    "cin": "U88510KA2017PTC336076",
+    "status": "Active",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen QKR9BR Limited",
+    "cin": "U46262KA2020PTC447689",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen PHQ1M7 Group",
+    "cin": "U85932KA2022PTC740730",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen HR8DQS Limited",
+    "cin": "U97063KA2013PTC821644",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen EH4R7A Private Limited",
+    "cin": "U41799KA2012PTC359945",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen K96NI2 Group",
+    "cin": "U64656KA2028PTC650333",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen 60GP9Z Group",
+    "cin": "U52182KA2022PTC802871",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen 7NJ7YC Limited",
+    "cin": "U51553KA2024PTC658646",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen AEQFUJ Limited",
+    "cin": "U91195KA2014PTC278754",
+    "status": "Inactive",
+    "verificationScore": 64
+  },
+  {
+    "companyName": "AlphaGen WP79C6 Corp",
+    "cin": "U60135KA2011PTC804185",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen 9LWL15 Solutions",
+    "cin": "U68440KA2022PTC113617",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen 9MXHJR Corp",
+    "cin": "U18560KA2019PTC120193",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen 07WWEA Private Limited",
+    "cin": "U46766KA2015PTC756907",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen Q6I5VK Limited",
+    "cin": "U70070KA2022PTC857133",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen 0RDGSL Group",
+    "cin": "U65038KA2028PTC585377",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen 2QN5GW Services",
+    "cin": "U68863KA2019PTC129771",
+    "status": "Inactive",
+    "verificationScore": 99
+  },
+  {
+    "companyName": "AlphaGen KPSD85 Services",
+    "cin": "U20726KA2016PTC930681",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen 1Y02G0 Private Limited",
+    "cin": "U74280KA2019PTC553326",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen P8LSHW Solutions",
+    "cin": "U40714KA2029PTC806730",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen 4DLF3T Limited",
+    "cin": "U22747KA2010PTC663267",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen LUY3IJ Limited",
+    "cin": "U98596KA2019PTC590225",
+    "status": "Active",
+    "verificationScore": 99
+  },
+  {
+    "companyName": "AlphaGen 0O8ZNM Group",
+    "cin": "U55720KA2015PTC187249",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen 52FDKQ Limited",
+    "cin": "U41898KA2018PTC399232",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen 9D0P66 Group",
+    "cin": "U28945KA2019PTC398554",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen TT6CIX Group",
+    "cin": "U86797KA2016PTC195753",
+    "status": "Active",
+    "verificationScore": 69
+  },
+  {
+    "companyName": "AlphaGen 7CL3GC Technologies",
+    "cin": "U83445KA2025PTC896810",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen 58YAL9 Solutions",
+    "cin": "U69582KA2019PTC691942",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen 1KEJX7 Solutions",
+    "cin": "U32875KA2026PTC883992",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen 33PDRU Limited",
+    "cin": "U80052KA2026PTC585462",
+    "status": "Active",
+    "verificationScore": 69
+  },
+  {
+    "companyName": "AlphaGen 3Z4K2O Services",
+    "cin": "U54942KA2015PTC757052",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen CZ62SW Solutions",
+    "cin": "U65291KA2022PTC855998",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen 7TFHSI Corp",
+    "cin": "U85588KA2028PTC121934",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen 4KRGM1 Solutions",
+    "cin": "U70417KA2018PTC419889",
+    "status": "Active",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen 2WBTFT Technologies",
+    "cin": "U35317KA2019PTC149331",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen IUNE3L Group",
+    "cin": "U74696KA2015PTC902479",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen LR6YMG Corp",
+    "cin": "U98729KA2025PTC137220",
+    "status": "Active",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen EIF1BZ Technologies",
+    "cin": "U61858KA2027PTC370006",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen KLM0AK Limited",
+    "cin": "U36888KA2013PTC429951",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen 8YFTTN Group",
+    "cin": "U32809KA2016PTC503906",
+    "status": "Active",
+    "verificationScore": 70
+  },
+  {
+    "companyName": "AlphaGen DTYTLI Services",
+    "cin": "U34512KA2024PTC116800",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen 5L2XQW Solutions",
+    "cin": "U87510KA2013PTC948003",
+    "status": "Inactive",
+    "verificationScore": 88
+  },
+  {
+    "companyName": "AlphaGen WEEGM9 Private Limited",
+    "cin": "U29092KA2011PTC328835",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen LUCWTX Private Limited",
+    "cin": "U22474KA2012PTC349322",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen 2BM9IS Solutions",
+    "cin": "U16655KA2015PTC495430",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen 0D2W44 Technologies",
+    "cin": "U64796KA2018PTC237771",
+    "status": "Inactive",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen TKF7X0 Corp",
+    "cin": "U55665KA2014PTC940535",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen 95J7H6 Technologies",
+    "cin": "U39295KA2029PTC529161",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen K2T72F Solutions",
+    "cin": "U41027KA2024PTC270389",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen B3K3FO Private Limited",
+    "cin": "U37206KA2023PTC557649",
+    "status": "Inactive",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen YI82LX Services",
+    "cin": "U34613KA2013PTC253299",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen LR0GGY Corp",
+    "cin": "U45957KA2021PTC350070",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen MY5EQF Services",
+    "cin": "U88435KA2027PTC386533",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen O2OYQ5 Limited",
+    "cin": "U25320KA2021PTC550127",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen D0X18J Private Limited",
+    "cin": "U47993KA2016PTC693661",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen VSQWCR Technologies",
+    "cin": "U57073KA2018PTC799418",
+    "status": "Active",
+    "verificationScore": 69
+  },
+  {
+    "companyName": "AlphaGen AFLCHL Corp",
+    "cin": "U24707KA2014PTC825527",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen JVROH3 Technologies",
+    "cin": "U72463KA2029PTC148727",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen ELSJR5 Private Limited",
+    "cin": "U87372KA2021PTC761411",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen VNP1CR Technologies",
+    "cin": "U69233KA2014PTC783350",
+    "status": "Inactive",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen GMCB83 Private Limited",
+    "cin": "U88559KA2026PTC896928",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen VBTC88 Group",
+    "cin": "U69756KA2022PTC801152",
+    "status": "Active",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen EYDTU9 Private Limited",
+    "cin": "U76797KA2013PTC854663",
+    "status": "Active",
+    "verificationScore": 69
+  },
+  {
+    "companyName": "AlphaGen XMW9R1 Solutions",
+    "cin": "U54591KA2019PTC319121",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen HXDHAZ Solutions",
+    "cin": "U44825KA2011PTC683018",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen N9JQRX Technologies",
+    "cin": "U70604KA2025PTC489099",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen OKFGSM Corp",
+    "cin": "U82564KA2016PTC275861",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen NZXX62 Corp",
+    "cin": "U54124KA2028PTC767437",
+    "status": "Inactive",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen TFMS4D Group",
+    "cin": "U88021KA2020PTC341504",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen WFHCV7 Services",
+    "cin": "U79311KA2019PTC661695",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen AYGR3S Solutions",
+    "cin": "U50997KA2010PTC376813",
+    "status": "Inactive",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen HX2BHM Technologies",
+    "cin": "U16535KA2022PTC349352",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen D2GGLN Corp",
+    "cin": "U13485KA2015PTC536350",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen UL4Y33 Corp",
+    "cin": "U91397KA2025PTC973911",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen 805SAK Private Limited",
+    "cin": "U76684KA2028PTC601863",
+    "status": "Active",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen L39740 Group",
+    "cin": "U72723KA2013PTC130100",
+    "status": "Active",
+    "verificationScore": 80
+  },
+  {
+    "companyName": "AlphaGen SMS0XF Services",
+    "cin": "U70753KA2016PTC885245",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen 5DU2BX Services",
+    "cin": "U82985KA2023PTC309826",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen SPXYN3 Group",
+    "cin": "U41346KA2022PTC389857",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen W81LXO Private Limited",
+    "cin": "U15553KA2022PTC705843",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen 1ZTYL8 Solutions",
+    "cin": "U38111KA2029PTC263527",
+    "status": "Inactive",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen QFH4XK Technologies",
+    "cin": "U35001KA2019PTC115265",
+    "status": "Active",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen IP8M8Q Corp",
+    "cin": "U38800KA2021PTC142794",
+    "status": "Active",
+    "verificationScore": 70
+  },
+  {
+    "companyName": "AlphaGen J9ECAX Private Limited",
+    "cin": "U80955KA2015PTC904005",
+    "status": "Active",
+    "verificationScore": 64
+  },
+  {
+    "companyName": "AlphaGen 0QLGJL Corp",
+    "cin": "U96764KA2026PTC739605",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen DT9W4X Private Limited",
+    "cin": "U30564KA2021PTC397121",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen E4V4FT Services",
+    "cin": "U76902KA2024PTC602801",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen L8QFR0 Services",
+    "cin": "U68929KA2020PTC548520",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen V350XG Technologies",
+    "cin": "U42726KA2018PTC338559",
+    "status": "Inactive",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen AMEJRT Corp",
+    "cin": "U44604KA2022PTC983755",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen EK78OD Limited",
+    "cin": "U60099KA2026PTC488746",
+    "status": "Active",
+    "verificationScore": 99
+  },
+  {
+    "companyName": "AlphaGen SIWRV8 Services",
+    "cin": "U18548KA2013PTC562819",
+    "status": "Active",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen CYUNSY Limited",
+    "cin": "U57304KA2014PTC279146",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen DRWIAA Private Limited",
+    "cin": "U98360KA2013PTC906860",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen 40Y7EE Private Limited",
+    "cin": "U65721KA2027PTC254661",
+    "status": "Active",
+    "verificationScore": 69
+  },
+  {
+    "companyName": "AlphaGen S6GHP9 Limited",
+    "cin": "U39569KA2012PTC241789",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen XWSNXB Services",
+    "cin": "U15697KA2013PTC309561",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen NB51H6 Limited",
+    "cin": "U84427KA2024PTC558302",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen ID9GFT Solutions",
+    "cin": "U69714KA2015PTC422167",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen AZMQC5 Solutions",
+    "cin": "U73309KA2021PTC774192",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen EPFVJY Services",
+    "cin": "U72909KA2019PTC430499",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen 7QQ7ON Limited",
+    "cin": "U22570KA2010PTC119441",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen O1TYO1 Group",
+    "cin": "U97592KA2017PTC995562",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen LE7B0V Group",
+    "cin": "U96749KA2019PTC177310",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "AlphaGen 552HS8 Limited",
+    "cin": "U25675KA2011PTC864369",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen 2D79UM Services",
+    "cin": "U38512KA2029PTC375372",
+    "status": "Active",
+    "verificationScore": 70
+  },
+  {
+    "companyName": "AlphaGen 9SYC0V Private Limited",
+    "cin": "U57482KA2028PTC411094",
+    "status": "Active",
+    "verificationScore": 64
+  },
+  {
+    "companyName": "AlphaGen BQ7P9I Group",
+    "cin": "U54740KA2018PTC137638",
+    "status": "Inactive",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen I8G0M7 Services",
+    "cin": "U17949KA2022PTC284920",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen 364Y42 Limited",
+    "cin": "U99613KA2020PTC279807",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen 4PQW1A Limited",
+    "cin": "U34995KA2026PTC741064",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen RPD5RI Limited",
+    "cin": "U28789KA2012PTC490805",
+    "status": "Active",
+    "verificationScore": 64
+  },
+  {
+    "companyName": "AlphaGen FL335A Corp",
+    "cin": "U76454KA2011PTC840281",
+    "status": "Inactive",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen WLNCHS Services",
+    "cin": "U49337KA2011PTC938867",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen KQSWAX Corp",
+    "cin": "U26753KA2022PTC179371",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen OVH2LJ Solutions",
+    "cin": "U88325KA2023PTC499783",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen UJEQYE Limited",
+    "cin": "U73355KA2017PTC177281",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "AlphaGen U07G79 Corp",
+    "cin": "U80925KA2024PTC322737",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen M2NVHZ Technologies",
+    "cin": "U29300KA2010PTC503871",
+    "status": "Inactive",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen MEV5RA Corp",
+    "cin": "U19422KA2014PTC477218",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen INWE92 Private Limited",
+    "cin": "U19094KA2015PTC548089",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen WZEGA0 Solutions",
+    "cin": "U37074KA2028PTC353858",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen 6UW6S4 Limited",
+    "cin": "U75346KA2017PTC823750",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen DOHYZR Private Limited",
+    "cin": "U47967KA2020PTC270501",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen PQ3PXD Private Limited",
+    "cin": "U41874KA2029PTC923216",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen 01GKT1 Corp",
+    "cin": "U12714KA2025PTC621104",
+    "status": "Inactive",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen IQJG8I Private Limited",
+    "cin": "U40963KA2017PTC277024",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen DYK7UW Group",
+    "cin": "U77033KA2024PTC610396",
+    "status": "Active",
+    "verificationScore": 70
+  },
+  {
+    "companyName": "AlphaGen P1X0PE Limited",
+    "cin": "U32368KA2024PTC352290",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen XDG84Z Solutions",
+    "cin": "U66121KA2023PTC894314",
+    "status": "Active",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen IHPKSY Group",
+    "cin": "U30600KA2016PTC756813",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen MOHPUB Solutions",
+    "cin": "U46254KA2021PTC253198",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen 5HHKFK Corp",
+    "cin": "U19305KA2025PTC526482",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen 065D6R Services",
+    "cin": "U11106KA2014PTC738977",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen 9M2MFR Technologies",
+    "cin": "U38453KA2015PTC296316",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen QV0KYH Solutions",
+    "cin": "U67902KA2014PTC755575",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen BPKDL5 Solutions",
+    "cin": "U58356KA2010PTC944167",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen GAMKKM Services",
+    "cin": "U72108KA2013PTC755132",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen W432PA Services",
+    "cin": "U33732KA2011PTC505060",
+    "status": "Active",
+    "verificationScore": 70
+  },
+  {
+    "companyName": "AlphaGen NH736Y Corp",
+    "cin": "U61463KA2017PTC917994",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen FD32Y9 Corp",
+    "cin": "U22120KA2013PTC684928",
+    "status": "Active",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen D97ACO Services",
+    "cin": "U59113KA2018PTC821262",
+    "status": "Inactive",
+    "verificationScore": 68
+  },
+  {
+    "companyName": "AlphaGen KNY3DM Services",
+    "cin": "U73883KA2018PTC115132",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen Y2FQJ6 Group",
+    "cin": "U86670KA2016PTC340260",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen 0MPZQE Private Limited",
+    "cin": "U83821KA2013PTC700507",
+    "status": "Inactive",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen 0NL40B Services",
+    "cin": "U89419KA2022PTC447983",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen E94H66 Group",
+    "cin": "U74792KA2017PTC374835",
+    "status": "Inactive",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen FSXDM8 Services",
+    "cin": "U10475KA2020PTC597095",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen J82MTD Limited",
+    "cin": "U57462KA2013PTC247443",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen L720ER Services",
+    "cin": "U88548KA2029PTC999856",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen PWYU9P Technologies",
+    "cin": "U89881KA2012PTC141579",
+    "status": "Inactive",
+    "verificationScore": 88
+  },
+  {
+    "companyName": "AlphaGen 4V09II Limited",
+    "cin": "U54116KA2014PTC289592",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen MOKK5A Corp",
+    "cin": "U92271KA2022PTC735587",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen JK521V Private Limited",
+    "cin": "U20489KA2019PTC619002",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen NPHVGB Corp",
+    "cin": "U53705KA2017PTC689047",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen ANCZMG Solutions",
+    "cin": "U80008KA2011PTC407400",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen B8CKO1 Corp",
+    "cin": "U15055KA2025PTC926296",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen CFTXWM Corp",
+    "cin": "U44644KA2012PTC652265",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen JM5E02 Corp",
+    "cin": "U26597KA2012PTC186163",
+    "status": "Active",
+    "verificationScore": 69
+  },
+  {
+    "companyName": "AlphaGen 46LPCG Services",
+    "cin": "U21849KA2024PTC206666",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen 49GOTC Technologies",
+    "cin": "U65665KA2013PTC921277",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen NKALNZ Corp",
+    "cin": "U73039KA2017PTC867047",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen H17KTO Group",
+    "cin": "U36656KA2012PTC330725",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen K888MJ Services",
+    "cin": "U34740KA2015PTC763079",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen HE48JD Group",
+    "cin": "U89380KA2026PTC691700",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen AD323R Corp",
+    "cin": "U34891KA2013PTC298917",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen XBQ3PS Private Limited",
+    "cin": "U17223KA2016PTC858368",
+    "status": "Active",
+    "verificationScore": 68
+  },
+  {
+    "companyName": "AlphaGen FFI7M4 Corp",
+    "cin": "U47496KA2020PTC732040",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen IO62EY Private Limited",
+    "cin": "U55804KA2012PTC657380",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen 6ZTX52 Solutions",
+    "cin": "U75058KA2024PTC730752",
+    "status": "Inactive",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen IIOEWZ Private Limited",
+    "cin": "U67060KA2023PTC114487",
+    "status": "Active",
+    "verificationScore": 64
+  },
+  {
+    "companyName": "AlphaGen 78QTNS Corp",
+    "cin": "U35537KA2016PTC339131",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen QWP0UD Limited",
+    "cin": "U12810KA2022PTC509211",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen GC9XI9 Group",
+    "cin": "U93761KA2015PTC772931",
+    "status": "Active",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen XUJ2ZZ Private Limited",
+    "cin": "U44330KA2012PTC569998",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen X217Y3 Limited",
+    "cin": "U66474KA2017PTC642480",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen Q8ZOQF Corp",
+    "cin": "U44258KA2026PTC606321",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen 2GYVD9 Services",
+    "cin": "U22508KA2020PTC528826",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen BQOBG5 Services",
+    "cin": "U42635KA2018PTC478228",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen G8AKY5 Group",
+    "cin": "U74452KA2019PTC277507",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen FF6S2V Private Limited",
+    "cin": "U38966KA2011PTC523340",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen POT6EC Group",
+    "cin": "U88922KA2014PTC800070",
+    "status": "Inactive",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen GG8KGG Limited",
+    "cin": "U77113KA2028PTC968090",
+    "status": "Inactive",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen 4AF9CE Technologies",
+    "cin": "U95222KA2018PTC584932",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen 6P1MOX Solutions",
+    "cin": "U41300KA2026PTC301921",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen H5D9F0 Corp",
+    "cin": "U69712KA2012PTC977466",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen CJBH1O Limited",
+    "cin": "U35306KA2022PTC801807",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen 6ER05S Group",
+    "cin": "U79090KA2019PTC536262",
+    "status": "Active",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen I3SZBF Limited",
+    "cin": "U93031KA2015PTC466048",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen C2PJ4C Private Limited",
+    "cin": "U89600KA2012PTC200247",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen 86XM66 Technologies",
+    "cin": "U41623KA2027PTC860759",
+    "status": "Inactive",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen ZTEDCG Group",
+    "cin": "U42410KA2028PTC735085",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen WJUNS2 Services",
+    "cin": "U38412KA2020PTC911881",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen P8BDFL Solutions",
+    "cin": "U87173KA2020PTC942862",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen U7J5MA Solutions",
+    "cin": "U57300KA2015PTC503840",
+    "status": "Active",
+    "verificationScore": 68
+  },
+  {
+    "companyName": "AlphaGen IPJAW4 Group",
+    "cin": "U59668KA2021PTC553745",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "AlphaGen RPENPC Private Limited",
+    "cin": "U42259KA2029PTC524612",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen J2M9DZ Solutions",
+    "cin": "U63587KA2025PTC603791",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen HV16MI Group",
+    "cin": "U97389KA2029PTC877588",
+    "status": "Active",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen 8CL61T Group",
+    "cin": "U45662KA2028PTC375861",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen 7A1N0A Limited",
+    "cin": "U83367KA2020PTC876836",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen 3ZZGBU Services",
+    "cin": "U47167KA2018PTC768919",
+    "status": "Active",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen Z5TT3V Technologies",
+    "cin": "U25585KA2029PTC131667",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen QN5FH5 Group",
+    "cin": "U22397KA2023PTC291842",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen 79ZMQO Private Limited",
+    "cin": "U11417KA2011PTC206101",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen WICEGS Technologies",
+    "cin": "U54206KA2023PTC924367",
+    "status": "Active",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen WVHLC9 Group",
+    "cin": "U99440KA2010PTC948813",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen KC6U3H Group",
+    "cin": "U85613KA2010PTC634833",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen HOL740 Services",
+    "cin": "U32475KA2014PTC812616",
+    "status": "Active",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen 218K01 Services",
+    "cin": "U15617KA2028PTC975833",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen DDNCVN Technologies",
+    "cin": "U38654KA2012PTC598007",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "AlphaGen P3AEF2 Private Limited",
+    "cin": "U24383KA2028PTC106683",
+    "status": "Active",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen DF7BXD Limited",
+    "cin": "U38530KA2021PTC387041",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen RUUG7L Private Limited",
+    "cin": "U21181KA2024PTC497359",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen ROI1GR Technologies",
+    "cin": "U35835KA2019PTC516706",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen BL09N0 Private Limited",
+    "cin": "U40745KA2028PTC745609",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen Y4YJ0H Private Limited",
+    "cin": "U22250KA2010PTC671878",
+    "status": "Active",
+    "verificationScore": 67
+  },
+  {
+    "companyName": "AlphaGen V2JOG7 Solutions",
+    "cin": "U54996KA2022PTC471698",
+    "status": "Inactive",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen ZQCCZO Technologies",
+    "cin": "U81010KA2028PTC382713",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen MATSWZ Group",
+    "cin": "U81533KA2026PTC406821",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen WPPUOL Corp",
+    "cin": "U20039KA2018PTC684827",
+    "status": "Inactive",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen WFHA23 Services",
+    "cin": "U46117KA2018PTC664107",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen DJ2ECY Corp",
+    "cin": "U65776KA2011PTC686448",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen 97ZAQT Corp",
+    "cin": "U81982KA2014PTC676078",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen L4O40N Group",
+    "cin": "U24968KA2016PTC419605",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen ALU1ZN Group",
+    "cin": "U19993KA2013PTC606073",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen 3WWI00 Services",
+    "cin": "U23648KA2016PTC886648",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen K43LJ0 Private Limited",
+    "cin": "U83904KA2023PTC512139",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen IKTB77 Group",
+    "cin": "U47205KA2022PTC729824",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen V46AB5 Limited",
+    "cin": "U14455KA2017PTC849246",
+    "status": "Active",
+    "verificationScore": 93
+  },
+  {
+    "companyName": "AlphaGen C0OHAB Group",
+    "cin": "U89812KA2027PTC523244",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen VVVRWI Corp",
+    "cin": "U59364KA2029PTC868079",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen 9KPYVG Corp",
+    "cin": "U97116KA2025PTC583950",
+    "status": "Inactive",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen Y8LNWZ Solutions",
+    "cin": "U95815KA2026PTC290138",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen 1AFYBF Solutions",
+    "cin": "U52369KA2012PTC389902",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen D1HX29 Private Limited",
+    "cin": "U90090KA2019PTC483389",
+    "status": "Active",
+    "verificationScore": 64
+  },
+  {
+    "companyName": "AlphaGen 4Q1WYC Corp",
+    "cin": "U69047KA2022PTC645222",
+    "status": "Active",
+    "verificationScore": 69
+  },
+  {
+    "companyName": "AlphaGen 46GGIJ Group",
+    "cin": "U98389KA2015PTC509980",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen 4R6F9R Private Limited",
+    "cin": "U22176KA2019PTC520054",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen 7MZB3A Corp",
+    "cin": "U46428KA2011PTC796064",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen HD6H46 Group",
+    "cin": "U90088KA2029PTC773288",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen ICA2UY Solutions",
+    "cin": "U81588KA2025PTC314480",
+    "status": "Active",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen EF2VDX Corp",
+    "cin": "U46440KA2021PTC220183",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen WTEPJX Technologies",
+    "cin": "U49913KA2017PTC177306",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen VFJSU9 Technologies",
+    "cin": "U96737KA2015PTC329931",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen JCFMZF Services",
+    "cin": "U84956KA2029PTC112224",
+    "status": "Active",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen CJ6508 Technologies",
+    "cin": "U78632KA2015PTC547886",
+    "status": "Active",
+    "verificationScore": 88
+  },
+  {
+    "companyName": "AlphaGen FKVAAR Technologies",
+    "cin": "U78322KA2024PTC176040",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen HYK4CZ Services",
+    "cin": "U46111KA2011PTC196198",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen KGC6GR Solutions",
+    "cin": "U90313KA2011PTC175933",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen B11IZ6 Private Limited",
+    "cin": "U89425KA2016PTC774067",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen 0WMKE6 Group",
+    "cin": "U38089KA2027PTC247278",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen 8KGK2U Corp",
+    "cin": "U47618KA2019PTC321517",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen 9YVLNA Limited",
+    "cin": "U16823KA2013PTC417932",
+    "status": "Active",
+    "verificationScore": 70
+  },
+  {
+    "companyName": "AlphaGen K20FHA Limited",
+    "cin": "U99128KA2020PTC374669",
+    "status": "Active",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen RBFNJW Limited",
+    "cin": "U49834KA2015PTC773191",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen JLPR86 Services",
+    "cin": "U53069KA2027PTC871927",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen CYMGLW Solutions",
+    "cin": "U27112KA2018PTC718886",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen YU75YX Solutions",
+    "cin": "U13985KA2020PTC700893",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen H234VZ Corp",
+    "cin": "U39738KA2012PTC130923",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen 7SN8MW Group",
+    "cin": "U50069KA2014PTC242252",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen HDDIX6 Services",
+    "cin": "U33199KA2018PTC192362",
+    "status": "Active",
+    "verificationScore": 88
+  },
+  {
+    "companyName": "AlphaGen AGE3UC Corp",
+    "cin": "U11965KA2025PTC444761",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen OIRG8C Solutions",
+    "cin": "U45412KA2020PTC864664",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen 5RDSFC Corp",
+    "cin": "U15994KA2019PTC464169",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen SA2S56 Group",
+    "cin": "U84062KA2019PTC273050",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen RJDL6D Technologies",
+    "cin": "U67814KA2011PTC437591",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen 4QEKRD Technologies",
+    "cin": "U17945KA2014PTC809526",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen CYKBFP Limited",
+    "cin": "U58870KA2028PTC122132",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen VCX7E6 Services",
+    "cin": "U98084KA2011PTC810980",
+    "status": "Active",
+    "verificationScore": 80
+  },
+  {
+    "companyName": "AlphaGen JUXYLZ Limited",
+    "cin": "U12769KA2021PTC390224",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen 9DSVKK Corp",
+    "cin": "U65802KA2013PTC224763",
+    "status": "Active",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen N0NBEI Limited",
+    "cin": "U44339KA2011PTC198412",
+    "status": "Inactive",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen L4EJCR Private Limited",
+    "cin": "U63863KA2013PTC918671",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen ABOGLR Services",
+    "cin": "U73807KA2024PTC157581",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen GNPSZE Services",
+    "cin": "U98650KA2022PTC518623",
+    "status": "Inactive",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen U5PWRF Group",
+    "cin": "U80106KA2021PTC861470",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen 61GW1K Services",
+    "cin": "U24519KA2012PTC739696",
+    "status": "Inactive",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen T7FT4B Limited",
+    "cin": "U99104KA2027PTC956216",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen IDQZHT Corp",
+    "cin": "U68589KA2029PTC994270",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen MS9SLL Limited",
+    "cin": "U27432KA2013PTC652953",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen I0EKXD Corp",
+    "cin": "U10791KA2017PTC565488",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen 8ZK9YX Group",
+    "cin": "U15970KA2027PTC934428",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen J9IT0D Group",
+    "cin": "U61314KA2011PTC610707",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen EYK9KM Technologies",
+    "cin": "U27138KA2016PTC847574",
+    "status": "Inactive",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen VNQAYV Corp",
+    "cin": "U72931KA2010PTC453318",
+    "status": "Active",
+    "verificationScore": 69
+  },
+  {
+    "companyName": "AlphaGen 2PDKRB Services",
+    "cin": "U24832KA2014PTC693261",
+    "status": "Inactive",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen 5OONGM Group",
+    "cin": "U15796KA2010PTC797569",
+    "status": "Active",
+    "verificationScore": 99
+  },
+  {
+    "companyName": "AlphaGen 0QQRRA Solutions",
+    "cin": "U67687KA2018PTC118606",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen W3I4BZ Services",
+    "cin": "U64679KA2024PTC817633",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen 5FTYA7 Limited",
+    "cin": "U37591KA2019PTC425563",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen G7FPPC Corp",
+    "cin": "U47085KA2025PTC141706",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen YXIKVQ Corp",
+    "cin": "U96312KA2028PTC629467",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen 3BGH7F Limited",
+    "cin": "U86781KA2015PTC706839",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen DH65AQ Technologies",
+    "cin": "U52120KA2027PTC464332",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen ZCPTUQ Corp",
+    "cin": "U52736KA2020PTC434503",
+    "status": "Active",
+    "verificationScore": 60
+  },
+  {
+    "companyName": "AlphaGen B4XBFB Private Limited",
+    "cin": "U97576KA2016PTC917939",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen NJ7UQ3 Private Limited",
+    "cin": "U70456KA2013PTC202230",
+    "status": "Active",
+    "verificationScore": 68
+  },
+  {
+    "companyName": "AlphaGen 9V98J1 Services",
+    "cin": "U99029KA2010PTC601845",
+    "status": "Active",
+    "verificationScore": 79
+  },
+  {
+    "companyName": "AlphaGen M37PZE Solutions",
+    "cin": "U18518KA2012PTC547000",
+    "status": "Active",
+    "verificationScore": 65
+  },
+  {
+    "companyName": "AlphaGen OYJ22K Services",
+    "cin": "U75236KA2023PTC705116",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen TKDBUN Private Limited",
+    "cin": "U26479KA2012PTC956138",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen H283QK Services",
+    "cin": "U14845KA2011PTC415844",
+    "status": "Active",
+    "verificationScore": 81
+  },
+  {
+    "companyName": "AlphaGen COROUO Services",
+    "cin": "U50426KA2014PTC952999",
+    "status": "Inactive",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen CO107H Technologies",
+    "cin": "U77804KA2024PTC780687",
+    "status": "Active",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen 3X38UR Solutions",
+    "cin": "U75900KA2014PTC594994",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen G982CW Solutions",
+    "cin": "U54370KA2023PTC140845",
+    "status": "Inactive",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen R9612S Technologies",
+    "cin": "U73740KA2017PTC360273",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen 9OWD18 Private Limited",
+    "cin": "U96591KA2028PTC184944",
+    "status": "Inactive",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen QJXPEO Private Limited",
+    "cin": "U30317KA2020PTC533580",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen U8JCTL Private Limited",
+    "cin": "U66903KA2014PTC490094",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen 0V02R6 Limited",
+    "cin": "U49226KA2014PTC922066",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen 49GMKR Group",
+    "cin": "U44717KA2013PTC535851",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen 6G0Y98 Technologies",
+    "cin": "U95330KA2027PTC242884",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen 08WDJ3 Technologies",
+    "cin": "U22851KA2017PTC129180",
+    "status": "Active",
+    "verificationScore": 99
+  },
+  {
+    "companyName": "AlphaGen 9QDWLQ Limited",
+    "cin": "U97713KA2027PTC473355",
+    "status": "Inactive",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen 1YLPEA Corp",
+    "cin": "U86388KA2022PTC976387",
+    "status": "Active",
+    "verificationScore": 64
+  },
+  {
+    "companyName": "AlphaGen HQSQBA Services",
+    "cin": "U62739KA2013PTC237838",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen TNHG2L Technologies",
+    "cin": "U91749KA2010PTC396260",
+    "status": "Inactive",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen ZB0U68 Group",
+    "cin": "U53959KA2012PTC757310",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen SZ3U2Z Private Limited",
+    "cin": "U72952KA2023PTC126901",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen X2JMRF Private Limited",
+    "cin": "U23388KA2020PTC120446",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen V42Z7G Corp",
+    "cin": "U81717KA2029PTC961017",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen MOUWMY Limited",
+    "cin": "U68106KA2029PTC735945",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen 8A3Q4S Group",
+    "cin": "U22083KA2023PTC941560",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen ZJ7A5Q Corp",
+    "cin": "U75138KA2011PTC438150",
+    "status": "Active",
+    "verificationScore": 61
+  },
+  {
+    "companyName": "AlphaGen AGE6VN Services",
+    "cin": "U56351KA2023PTC745703",
+    "status": "Active",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen NU3E76 Private Limited",
+    "cin": "U14247KA2025PTC650894",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen EQNBXD Group",
+    "cin": "U81009KA2020PTC296259",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen LO446V Corp",
+    "cin": "U67512KA2017PTC216208",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen 5JVLC0 Corp",
+    "cin": "U56743KA2011PTC459204",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen 9WPACD Corp",
+    "cin": "U88685KA2018PTC682801",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen 7JSLMY Private Limited",
+    "cin": "U63067KA2012PTC149293",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen EF0XD8 Solutions",
+    "cin": "U38955KA2029PTC661898",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen X0JLY0 Limited",
+    "cin": "U24446KA2010PTC672314",
+    "status": "Active",
+    "verificationScore": 88
+  },
+  {
+    "companyName": "AlphaGen 493DGS Services",
+    "cin": "U98770KA2019PTC785330",
+    "status": "Active",
+    "verificationScore": 89
+  },
+  {
+    "companyName": "AlphaGen J1PKVH Limited",
+    "cin": "U65011KA2029PTC880888",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen X892AC Group",
+    "cin": "U29132KA2018PTC347578",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen 4CO7B8 Group",
+    "cin": "U77211KA2027PTC827777",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen G6X8R3 Technologies",
+    "cin": "U26041KA2020PTC623464",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen KUVJZ2 Group",
+    "cin": "U27594KA2023PTC180199",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "AlphaGen 8X20ZD Group",
+    "cin": "U95859KA2026PTC511111",
+    "status": "Active",
+    "verificationScore": 68
+  },
+  {
+    "companyName": "AlphaGen R9FU78 Group",
+    "cin": "U62019KA2011PTC878605",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen 1M1B9K Group",
+    "cin": "U28181KA2017PTC665924",
+    "status": "Active",
+    "verificationScore": 91
+  },
+  {
+    "companyName": "AlphaGen 6Z255T Private Limited",
+    "cin": "U36484KA2012PTC807019",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen OYUYM6 Limited",
+    "cin": "U23719KA2014PTC611201",
+    "status": "Active",
+    "verificationScore": 83
+  },
+  {
+    "companyName": "AlphaGen K872GB Corp",
+    "cin": "U91174KA2024PTC969369",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen 5PGCZ2 Corp",
+    "cin": "U92072KA2028PTC392972",
+    "status": "Active",
+    "verificationScore": 76
+  },
+  {
+    "companyName": "AlphaGen 5HKV1K Corp",
+    "cin": "U17659KA2013PTC209231",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen V3NQQF Technologies",
+    "cin": "U75537KA2025PTC559023",
+    "status": "Active",
+    "verificationScore": 80
+  },
+  {
+    "companyName": "AlphaGen TKBK9D Group",
+    "cin": "U54271KA2021PTC333073",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen X7QHNR Services",
+    "cin": "U76785KA2015PTC572722",
+    "status": "Inactive",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen DVT17N Technologies",
+    "cin": "U85446KA2024PTC914597",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen HWDJCJ Limited",
+    "cin": "U55695KA2025PTC591596",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen PRVDNL Group",
+    "cin": "U48353KA2027PTC683079",
+    "status": "Active",
+    "verificationScore": 97
+  },
+  {
+    "companyName": "AlphaGen 2TTP5L Services",
+    "cin": "U39009KA2023PTC882011",
+    "status": "Active",
+    "verificationScore": 92
+  },
+  {
+    "companyName": "AlphaGen WLUFUQ Solutions",
+    "cin": "U74680KA2027PTC713856",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen PUAVVW Group",
+    "cin": "U68139KA2028PTC468381",
+    "status": "Active",
+    "verificationScore": 73
+  },
+  {
+    "companyName": "AlphaGen PL44L4 Private Limited",
+    "cin": "U46908KA2027PTC653579",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen SDX12E Group",
+    "cin": "U46965KA2023PTC666813",
+    "status": "Active",
+    "verificationScore": 88
+  },
+  {
+    "companyName": "AlphaGen BDY76L Solutions",
+    "cin": "U11301KA2026PTC234965",
+    "status": "Active",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen LLQ68O Technologies",
+    "cin": "U73534KA2011PTC437234",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen Y44D5K Group",
+    "cin": "U21089KA2024PTC219692",
+    "status": "Active",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen 53F8J3 Corp",
+    "cin": "U26325KA2011PTC987017",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen E5NBWK Group",
+    "cin": "U52002KA2023PTC521537",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen B92DW2 Technologies",
+    "cin": "U62507KA2023PTC375775",
+    "status": "Active",
+    "verificationScore": 87
+  },
+  {
+    "companyName": "AlphaGen 2QA3MI Solutions",
+    "cin": "U37273KA2014PTC245416",
+    "status": "Inactive",
+    "verificationScore": 74
+  },
+  {
+    "companyName": "AlphaGen OSUSAG Solutions",
+    "cin": "U41549KA2027PTC562631",
+    "status": "Active",
+    "verificationScore": 90
+  },
+  {
+    "companyName": "AlphaGen 2NDIJD Limited",
+    "cin": "U66985KA2026PTC931391",
+    "status": "Active",
+    "verificationScore": 85
+  },
+  {
+    "companyName": "AlphaGen 2IXRBF Technologies",
+    "cin": "U64783KA2029PTC534355",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen RNGC63 Solutions",
+    "cin": "U56268KA2022PTC623951",
+    "status": "Active",
+    "verificationScore": 94
+  },
+  {
+    "companyName": "AlphaGen 1I1PBJ Services",
+    "cin": "U46384KA2024PTC216432",
+    "status": "Active",
+    "verificationScore": 96
+  },
+  {
+    "companyName": "AlphaGen LVSX2D Services",
+    "cin": "U41416KA2016PTC180664",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen 71R23Z Technologies",
+    "cin": "U43480KA2011PTC100660",
+    "status": "Active",
+    "verificationScore": 72
+  },
+  {
+    "companyName": "AlphaGen 3PDK5S Solutions",
+    "cin": "U35133KA2021PTC267440",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen BB2TTZ Solutions",
+    "cin": "U80866KA2019PTC354223",
+    "status": "Active",
+    "verificationScore": 77
+  },
+  {
+    "companyName": "AlphaGen XAWJKJ Services",
+    "cin": "U87379KA2023PTC760661",
+    "status": "Active",
+    "verificationScore": 84
+  },
+  {
+    "companyName": "AlphaGen UQZ6Q7 Technologies",
+    "cin": "U15158KA2017PTC284373",
+    "status": "Active",
+    "verificationScore": 71
+  },
+  {
+    "companyName": "AlphaGen OK9HIU Group",
+    "cin": "U37926KA2011PTC493552",
+    "status": "Inactive",
+    "verificationScore": 82
+  },
+  {
+    "companyName": "AlphaGen BTXI5H Private Limited",
+    "cin": "U31781KA2010PTC603455",
+    "status": "Active",
+    "verificationScore": 66
+  },
+  {
+    "companyName": "AlphaGen 97E0CF Technologies",
+    "cin": "U16797KA2029PTC377404",
+    "status": "Active",
+    "verificationScore": 86
+  },
+  {
+    "companyName": "AlphaGen UZRNT3 Corp",
+    "cin": "U63465KA2022PTC384355",
+    "status": "Active",
+    "verificationScore": 63
+  },
+  {
+    "companyName": "AlphaGen 5CPLV4 Solutions",
+    "cin": "U68657KA2012PTC327807",
+    "status": "Active",
+    "verificationScore": 95
+  },
+  {
+    "companyName": "AlphaGen EOYEOJ Limited",
+    "cin": "U20546KA2015PTC416954",
+    "status": "Active",
+    "verificationScore": 78
+  },
+  {
+    "companyName": "AlphaGen 1V3BWT Solutions",
+    "cin": "U29322KA2021PTC686103",
+    "status": "Inactive",
+    "verificationScore": 64
+  },
+  {
+    "companyName": "AlphaGen 3EAODM Solutions",
+    "cin": "U52683KA2010PTC386310",
+    "status": "Active",
+    "verificationScore": 62
+  },
+  {
+    "companyName": "AlphaGen WY2QSD Technologies",
+    "cin": "U99779KA2011PTC494423",
+    "status": "Active",
+    "verificationScore": 80
+  },
+  {
+    "companyName": "AlphaGen V4YY1Q Corp",
+    "cin": "U75171KA2022PTC701036",
+    "status": "Active",
+    "verificationScore": 98
+  },
+  {
+    "companyName": "AlphaGen BSVSJ2 Private Limited",
+    "cin": "U56194KA2029PTC597309",
+    "status": "Inactive",
+    "verificationScore": 75
+  },
+  {
+    "companyName": "AlphaGen HYPRXM Corp",
+    "cin": "U18176KA2024PTC629931",
+    "status": "Active",
+    "verificationScore": 63
+  }
+]

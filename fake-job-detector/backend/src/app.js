@@ -5,6 +5,7 @@ const authRoutes = require('./routes/authRoutes');
 const toolRoutes = require('./routes/toolRoutes');
 const coverLetterRoutes = require('./routes/coverLetter');
 const linkedinRoutes = require('./routes/linkedin');
+const companyRoutes = require('./routes/companyRoutes');
 
 const app = express();
 
@@ -18,6 +19,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/tools', toolRoutes);
 app.use('/api/cover-letter', coverLetterRoutes);
 app.use('/api/linkedin', linkedinRoutes);
+app.use('/api/verify-company', companyRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {

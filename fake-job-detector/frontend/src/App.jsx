@@ -18,6 +18,7 @@ import SalaryChecker from './pages/SalaryChecker';
 import HistoryPage from './pages/HistoryPage';
 import CoverLetterGenerator from './pages/CoverLetterGenerator';
 import LinkedInAnalyzer from './pages/LinkedInAnalyzer';
+import CompanyVerifier from './pages/CompanyVerifier';
 
 const PageWrapper = ({ children }) => (
   <motion.div
@@ -53,6 +54,7 @@ const AnimatedRoutes = () => {
         <Route path="/history" element={<ProtectedRoute><DashboardLayout><PageWrapper><HistoryPage /></PageWrapper></DashboardLayout></ProtectedRoute>} />
         <Route path="/cover-letter" element={<ProtectedRoute><DashboardLayout><PageWrapper><CoverLetterGenerator /></PageWrapper></DashboardLayout></ProtectedRoute>} />
         <Route path="/linkedin-analyzer" element={<ProtectedRoute><DashboardLayout><PageWrapper><LinkedInAnalyzer /></PageWrapper></DashboardLayout></ProtectedRoute>} />
+        <Route path="/company-verifier" element={<ProtectedRoute><DashboardLayout><PageWrapper><CompanyVerifier /></PageWrapper></DashboardLayout></ProtectedRoute>} />
 
         {/* Default redirect */}
         <Route path="*" element={<Navigate to="/" />} />
