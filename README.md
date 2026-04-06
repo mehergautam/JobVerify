@@ -116,19 +116,6 @@ Output: Trust Score: 12/100 ⚠️ HIGH RISK
 
 ---
 
-## 🏗️ Tech Stack
-
-### Frontend
-```
-React.js 18          — UI framework
-Tailwind CSS         — Styling
-Framer Motion        — Animations
-Lucide React         — Icons
-React Router DOM     — Navigation
-React Hot Toast      — Notifications
-Vite                 — Build tool
-```
-
 ### Backend
 ```
 Node.js + Express.js — Server framework
