@@ -144,7 +144,7 @@ MongoDB Atlas        — Database hosting
 ```
 Primary (60%):   #F5F0E8  — Warm cream backgrounds
 Secondary (30%): #2D4A3E  — Deep forest green sidebar
-Accent (10%):    #C9A84C  — Gold buttons and highlights
+Accent (10%):    #C9A84C  — Gold buttons and highlight
 Font:            Plus Jakarta Sans + JetBrains Mono
 ```
 
